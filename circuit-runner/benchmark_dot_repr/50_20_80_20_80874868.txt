@@ -1,0 +1,4090 @@
+graph {
+  0 [color=green, label="0"]
+  1 [color=green, label="1", pos="1,0!"]
+  2 [color=green, label="2", pos="2,0!"]
+  3 [color=green, label="3", pos="3,0!"]
+  4 [color=green, label="4", pos="4,0!"]
+  5 [color=green, label="5", pos="5,0!"]
+  6 [color=green, label="6", pos="6,0!"]
+  7 [color=green, label="7", pos="7,0!"]
+  8 [color=green, label="8", pos="8,0!"]
+  9 [color=green, label="9", pos="9,0!"]
+  10 [color=green, label="10", pos="10,0!"]
+  11 [color=green, label="11", pos="11,0!"]
+  12 [color=green, label="12", pos="12,0!"]
+  13 [color=green, label="13", pos="13,0!"]
+  14 [color=green, label="14", pos="14,0!"]
+  15 [color=green, label="15", pos="15,0!"]
+  16 [color=green, label="16", pos="16,0!"]
+  17 [color=green, label="17", pos="17,0!"]
+  18 [color=green, label="18", pos="18,0!"]
+  19 [color=green, label="19", pos="19,0!"]
+  20 [color=green, label="20", pos="20,0!"]
+  21 [color=green, label="21", pos="21,0!"]
+  22 [color=green, label="22", pos="22,0!"]
+  23 [color=green, label="23", pos="23,0!"]
+  24 [color=green, label="24", pos="24,0!"]
+  25 [color=green, label="25", pos="25,0!"]
+  26 [color=green, label="26", pos="26,0!"]
+  27 [color=green, label="27", pos="27,0!"]
+  28 [color=green, label="28", pos="28,0!"]
+  29 [color=green, label="29", pos="29,0!"]
+  30 [color=green, label="30", pos="30,0!"]
+  31 [color=green, label="31", pos="31,0!"]
+  32 [color=green, label="32", pos="32,0!"]
+  33 [color=green, label="33", pos="33,0!"]
+  34 [color=green, label="34", pos="34,0!"]
+  35 [color=green, label="35", pos="35,0!"]
+  36 [color=green, label="36", pos="36,0!"]
+  37 [color=green, label="37", pos="37,0!"]
+  38 [color=green, label="38", pos="38,0!"]
+  39 [color=green, label="39", pos="39,0!"]
+  40 [color=green, label="40", pos="40,0!"]
+  41 [color=green, label="41", pos="41,0!"]
+  42 [color=green, label="42", pos="42,0!"]
+  43 [color=red, label="43", pos="43,0!"]
+  44 [color=red, label="44", pos="44,0!"]
+  45 [color=red, label="45", pos="45,0!"]
+  46 [color=red, label="46", pos="46,0!"]
+  47 [color=red, label="47", pos="47,0!"]
+  48 [color=red, label="48", pos="48,0!"]
+  49 [color=red, label="49", pos="49,0!"]
+  50 [color=green, label="50", pos="24,1!"]
+  51 [color=red, label="51", pos="38,1!"]
+  52 [color=red, label="52", pos="10,2!"]
+  53 [color=green, label="53", pos="22,2!"]
+  54 [color=red, label="54:1", pos="38,3!"]
+  55 [color=green, label="55", pos="0,4!"]
+  56 [color=green, label="56", pos="1,4!"]
+  57 [color=green, label="57", pos="2,4!"]
+  58 [color=green, label="58", pos="3,4!"]
+  59 [color=green, label="59", pos="4,4!"]
+  60 [color=green, label="60", pos="6,4!"]
+  61 [color=green, label="61", pos="7,4!"]
+  62 [color=green, label="62", pos="8,4!"]
+  63 [color=green, label="63", pos="10,4!"]
+  64 [color=green, label="64", pos="11,4!"]
+  65 [color=green, label="65", pos="12,4!"]
+  66 [color=green, label="66", pos="13,4!"]
+  67 [color=green, label="67", pos="14,4!"]
+  68 [color=green, label="68", pos="15,4!"]
+  69 [color=green, label="69", pos="17,4!"]
+  70 [color=green, label="70", pos="18,4!"]
+  71 [color=green, label="71", pos="20,4!"]
+  72 [color=green, label="72", pos="22,4!"]
+  73 [color=green, label="73", pos="23,4!"]
+  74 [color=green, label="74", pos="24,4!"]
+  75 [color=green, label="75", pos="26,4!"]
+  76 [color=green, label="76", pos="27,4!"]
+  77 [color=green, label="77", pos="28,4!"]
+  78 [color=green, label="78", pos="30,4!"]
+  79 [color=green, label="79", pos="31,4!"]
+  80 [color=green, label="80", pos="32,4!"]
+  81 [color=green, label="81", pos="33,4!"]
+  82 [color=green, label="82", pos="34,4!"]
+  83 [color=green, label="83", pos="35,4!"]
+  84 [color=green, label="84", pos="36,4!"]
+  85 [color=green, label="85", pos="37,4!"]
+  86 [color=green, label="86", pos="39,4!"]
+  87 [color=green, label="87", pos="40,4!"]
+  88 [color=green, label="88", pos="41,4!"]
+  89 [color=red, label="89", pos="47,4!"]
+  90 [color=green, label="90:1", pos="-0.5,6!"]
+  93 [color=red, label="93:1", pos="-35,6!"]
+  96 [color=red, label="96:1", pos="-34,6!"]
+  99 [color=red, label="99:1", pos="-33,6!"]
+  102 [color=red, label="102:1", pos="-32,6!"]
+  105 [color=red, label="105:1", pos="-31,6!"]
+  108 [color=red, label="108:1", pos="-30,6!"]
+  111 [color=red, label="111:1", pos="-29,6!"]
+  114 [color=red, label="114:1", pos="-28,6!"]
+  117 [color=red, label="117:1", pos="-27,6!"]
+  120 [color=red, label="120:1", pos="-26,6!"]
+  123 [color=red, label="123:1", pos="-25,6!"]
+  126 [color=red, label="126:1", pos="-24,6!"]
+  129 [color=red, label="129:1", pos="-23,6!"]
+  132 [color=red, label="132:1", pos="-22,6!"]
+  135 [color=red, label="135:1", pos="-21,6!"]
+  138 [color=red, label="138:1", pos="-20,6!"]
+  141 [color=red, label="141:1", pos="-19,6!"]
+  144 [color=red, label="144:1", pos="-18,6!"]
+  147 [color=red, label="147:1", pos="-17,6!"]
+  150 [color=red, label="150:1", pos="-16,6!"]
+  153 [color=red, label="153:1", pos="-15,6!"]
+  156 [color=red, label="156:1", pos="-14,6!"]
+  159 [color=red, label="159:1", pos="-13,6!"]
+  162 [color=red, label="162:1", pos="-12,6!"]
+  165 [color=red, label="165:1", pos="-11,6!"]
+  168 [color=red, label="168:1", pos="-10,6!"]
+  171 [color=red, label="171:1", pos="-9,6!"]
+  174 [color=red, label="174:1", pos="-8,6!"]
+  177 [color=red, label="177:1", pos="-7,6!"]
+  180 [color=red, label="180:1", pos="-6,6!"]
+  183 [color=red, label="183:1", pos="-5,6!"]
+  186 [color=red, label="186:1", pos="-4,6!"]
+  189 [color=red, label="189:1", pos="-3,6!"]
+  192 [color=red, label="192:1", pos="-2,6!"]
+  195 [color=green, label="195:1", pos="-17.5,7.5!"]
+  196 [color=red, label="196:1", pos="-1,7.5!"]
+  197 [color=green, label="197", pos="6,8.5!"]
+  198 [color=red, label="198", pos="26,8.5!"]
+  199 [color=green, label="199", pos="12,9.5!"]
+  200 [color=red, label="200", pos="30,9.5!"]
+  201 [color=red, label="201:1", pos="30,10.5!"]
+  202 [color=green, label="202", pos="41,11.5!"]
+  203 [color=red, label="203", pos="42,11.5!"]
+  204 [color=green, label="204", pos="0,12.5!"]
+  205 [color=green, label="205", pos="3,12.5!"]
+  206 [color=green, label="206", pos="5,12.5!"]
+  207 [color=green, label="207", pos="6,12.5!"]
+  208 [color=green, label="208", pos="7,12.5!"]
+  209 [color=green, label="209", pos="9,12.5!"]
+  210 [color=green, label="210", pos="10,12.5!"]
+  211 [color=green, label="211", pos="11,12.5!"]
+  212 [color=green, label="212", pos="12,12.5!"]
+  213 [color=green, label="213", pos="13,12.5!"]
+  214 [color=green, label="214", pos="14,12.5!"]
+  215 [color=green, label="215", pos="15,12.5!"]
+  216 [color=green, label="216", pos="16,12.5!"]
+  217 [color=green, label="217", pos="19,12.5!"]
+  218 [color=green, label="218", pos="20,12.5!"]
+  219 [color=green, label="219", pos="22,12.5!"]
+  220 [color=green, label="220", pos="24,12.5!"]
+  221 [color=green, label="221", pos="25,12.5!"]
+  222 [color=green, label="222", pos="26,12.5!"]
+  223 [color=green, label="223", pos="27,12.5!"]
+  224 [color=green, label="224", pos="28,12.5!"]
+  225 [color=green, label="225", pos="29,12.5!"]
+  226 [color=green, label="226", pos="30,12.5!"]
+  227 [color=green, label="227", pos="32,12.5!"]
+  228 [color=green, label="228", pos="33,12.5!"]
+  229 [color=green, label="229", pos="34,12.5!"]
+  230 [color=green, label="230", pos="35,12.5!"]
+  231 [color=green, label="231", pos="36,12.5!"]
+  232 [color=green, label="232", pos="40,12.5!"]
+  233 [color=green, label="233", pos="41,12.5!"]
+  234 [color=green, label="234", pos="42,12.5!"]
+  235 [color=red, label="235", pos="47,12.5!"]
+  236 [color=green, label="236:1", pos="-0.5,14.5!"]
+  239 [color=red, label="239:1", pos="-32,14.5!"]
+  242 [color=red, label="242:1", pos="-31,14.5!"]
+  245 [color=red, label="245:1", pos="-30,14.5!"]
+  248 [color=red, label="248:1", pos="-29,14.5!"]
+  251 [color=red, label="251:1", pos="-28,14.5!"]
+  254 [color=red, label="254:1", pos="-27,14.5!"]
+  257 [color=red, label="257:1", pos="-26,14.5!"]
+  260 [color=red, label="260:1", pos="-25,14.5!"]
+  263 [color=red, label="263:1", pos="-24,14.5!"]
+  266 [color=red, label="266:1", pos="-23,14.5!"]
+  269 [color=red, label="269:1", pos="-22,14.5!"]
+  272 [color=red, label="272:1", pos="-21,14.5!"]
+  275 [color=red, label="275:1", pos="-20,14.5!"]
+  278 [color=red, label="278:1", pos="-19,14.5!"]
+  281 [color=red, label="281:1", pos="-18,14.5!"]
+  284 [color=red, label="284:1", pos="-17,14.5!"]
+  287 [color=red, label="287:1", pos="-16,14.5!"]
+  290 [color=red, label="290:1", pos="-15,14.5!"]
+  293 [color=red, label="293:1", pos="-14,14.5!"]
+  296 [color=red, label="296:1", pos="-13,14.5!"]
+  299 [color=red, label="299:1", pos="-12,14.5!"]
+  302 [color=red, label="302:1", pos="-11,14.5!"]
+  305 [color=red, label="305:1", pos="-10,14.5!"]
+  308 [color=red, label="308:1", pos="-9,14.5!"]
+  311 [color=red, label="311:1", pos="-8,14.5!"]
+  314 [color=red, label="314:1", pos="-7,14.5!"]
+  317 [color=red, label="317:1", pos="-6,14.5!"]
+  320 [color=red, label="320:1", pos="-5,14.5!"]
+  323 [color=red, label="323:1", pos="-4,14.5!"]
+  326 [color=red, label="326:1", pos="-3,14.5!"]
+  329 [color=red, label="329:1", pos="-2,14.5!"]
+  332 [color=green, label="332:1", pos="-16.5,16.0!"]
+  333 [color=red, label="333:1", pos="-1,16.0!"]
+  334 [color=red, label="334:1", pos="40,17.0!"]
+  335 [color=red, label="335", pos="3,18.0!"]
+  336 [color=green, label="336", pos="14,18.0!"]
+  337 [color=green, label="337", pos="35,19.0!"]
+  338 [color=red, label="338", pos="42,19.0!"]
+  339 [color=green, label="339", pos="14,20.0!"]
+  340 [color=red, label="340", pos="28,20.0!"]
+  341 [color=red, label="341:1", pos="27,21.0!"]
+  342 [color=green, label="342", pos="5,22.0!"]
+  343 [color=red, label="343", pos="7,22.0!"]
+  344 [color=red, label="344", pos="13,23.0!"]
+  345 [color=green, label="345", pos="14,23.0!"]
+  346 [color=red, label="346", pos="21,24.0!"]
+  347 [color=green, label="347", pos="22,24.0!"]
+  348 [color=red, label="348", pos="17,25.0!"]
+  349 [color=green, label="349", pos="19,25.0!"]
+  350 [color=red, label="350", pos="1,26.0!"]
+  351 [color=green, label="351", pos="37,26.0!"]
+  352 [color=red, label="352:1", pos="41,27.0!"]
+  353 [color=green, label="353", pos="18,28.0!"]
+  354 [color=red, label="354", pos="29,28.0!"]
+  355 [color=green, label="355", pos="1,29.0!"]
+  356 [color=red, label="356", pos="20,29.0!"]
+  357 [color=green, label="357", pos="21,30.0!"]
+  358 [color=red, label="358", pos="25,30.0!"]
+  359 [color=red, label="359", pos="2,31.0!"]
+  360 [color=green, label="360", pos="23,31.0!"]
+  361 [color=red, label="361", pos="12,32.0!"]
+  362 [color=green, label="362", pos="37,32.0!"]
+  363 [color=green, label="363", pos="0,33.0!"]
+  364 [color=green, label="364", pos="1,33.0!"]
+  365 [color=green, label="365", pos="4,33.0!"]
+  366 [color=green, label="366", pos="6,33.0!"]
+  367 [color=green, label="367", pos="8,33.0!"]
+  368 [color=green, label="368", pos="10,33.0!"]
+  369 [color=green, label="369", pos="11,33.0!"]
+  370 [color=green, label="370", pos="12,33.0!"]
+  371 [color=green, label="371", pos="13,33.0!"]
+  372 [color=green, label="372", pos="14,33.0!"]
+  373 [color=green, label="373", pos="17,33.0!"]
+  374 [color=green, label="374", pos="18,33.0!"]
+  375 [color=green, label="375", pos="19,33.0!"]
+  376 [color=green, label="376", pos="20,33.0!"]
+  377 [color=green, label="377", pos="21,33.0!"]
+  378 [color=green, label="378", pos="22,33.0!"]
+  379 [color=green, label="379", pos="29,33.0!"]
+  380 [color=green, label="380", pos="34,33.0!"]
+  381 [color=green, label="381", pos="36,33.0!"]
+  382 [color=green, label="382", pos="39,33.0!"]
+  383 [color=red, label="383", pos="45,33.0!"]
+  384 [color=green, label="384:1", pos="-0.5,35.0!"]
+  387 [color=red, label="387:1", pos="-21,35.0!"]
+  390 [color=red, label="390:1", pos="-20,35.0!"]
+  393 [color=red, label="393:1", pos="-19,35.0!"]
+  396 [color=red, label="396:1", pos="-18,35.0!"]
+  399 [color=red, label="399:1", pos="-17,35.0!"]
+  402 [color=red, label="402:1", pos="-16,35.0!"]
+  405 [color=red, label="405:1", pos="-15,35.0!"]
+  408 [color=red, label="408:1", pos="-14,35.0!"]
+  411 [color=red, label="411:1", pos="-13,35.0!"]
+  414 [color=red, label="414:1", pos="-12,35.0!"]
+  417 [color=red, label="417:1", pos="-11,35.0!"]
+  420 [color=red, label="420:1", pos="-10,35.0!"]
+  423 [color=red, label="423:1", pos="-9,35.0!"]
+  426 [color=red, label="426:1", pos="-8,35.0!"]
+  429 [color=red, label="429:1", pos="-7,35.0!"]
+  432 [color=red, label="432:1", pos="-6,35.0!"]
+  435 [color=red, label="435:1", pos="-5,35.0!"]
+  438 [color=red, label="438:1", pos="-4,35.0!"]
+  441 [color=red, label="441:1", pos="-3,35.0!"]
+  444 [color=red, label="444:1", pos="-2,35.0!"]
+  447 [color=green, label="447:1", pos="-10.5,36.5!"]
+  448 [color=red, label="448:1", pos="-1,36.5!"]
+  449 [color=red, label="449:1", pos="28,37.5!"]
+  450 [color=green, label="450", pos="2,38.5!"]
+  451 [color=red, label="451", pos="8,38.5!"]
+  452 [color=green, label="452", pos="14,39.5!"]
+  453 [color=red, label="453", pos="21,39.5!"]
+  454 [color=green, label="454", pos="0,40.5!"]
+  455 [color=green, label="455", pos="1,40.5!"]
+  456 [color=green, label="456", pos="3,40.5!"]
+  457 [color=green, label="457", pos="4,40.5!"]
+  458 [color=green, label="458", pos="5,40.5!"]
+  459 [color=green, label="459", pos="6,40.5!"]
+  460 [color=green, label="460", pos="8,40.5!"]
+  461 [color=green, label="461", pos="10,40.5!"]
+  462 [color=green, label="462", pos="11,40.5!"]
+  463 [color=green, label="463", pos="12,40.5!"]
+  464 [color=green, label="464", pos="13,40.5!"]
+  465 [color=green, label="465", pos="14,40.5!"]
+  466 [color=green, label="466", pos="15,40.5!"]
+  467 [color=green, label="467", pos="17,40.5!"]
+  468 [color=green, label="468", pos="19,40.5!"]
+  469 [color=green, label="469", pos="20,40.5!"]
+  470 [color=green, label="470", pos="22,40.5!"]
+  471 [color=green, label="471", pos="23,40.5!"]
+  472 [color=green, label="472", pos="24,40.5!"]
+  473 [color=green, label="473", pos="25,40.5!"]
+  474 [color=green, label="474", pos="27,40.5!"]
+  475 [color=green, label="475", pos="28,40.5!"]
+  476 [color=green, label="476", pos="29,40.5!"]
+  477 [color=green, label="477", pos="31,40.5!"]
+  478 [color=green, label="478", pos="33,40.5!"]
+  479 [color=green, label="479", pos="35,40.5!"]
+  480 [color=green, label="480", pos="36,40.5!"]
+  481 [color=green, label="481", pos="41,40.5!"]
+  482 [color=green, label="482", pos="42,40.5!"]
+  483 [color=red, label="483", pos="47,40.5!"]
+  484 [color=green, label="484:1", pos="-0.5,42.5!"]
+  487 [color=red, label="487:1", pos="-30,42.5!"]
+  490 [color=red, label="490:1", pos="-29,42.5!"]
+  493 [color=red, label="493:1", pos="-28,42.5!"]
+  496 [color=red, label="496:1", pos="-27,42.5!"]
+  499 [color=red, label="499:1", pos="-26,42.5!"]
+  502 [color=red, label="502:1", pos="-25,42.5!"]
+  505 [color=red, label="505:1", pos="-24,42.5!"]
+  508 [color=red, label="508:1", pos="-23,42.5!"]
+  511 [color=red, label="511:1", pos="-22,42.5!"]
+  514 [color=red, label="514:1", pos="-21,42.5!"]
+  517 [color=red, label="517:1", pos="-20,42.5!"]
+  520 [color=red, label="520:1", pos="-19,42.5!"]
+  523 [color=red, label="523:1", pos="-18,42.5!"]
+  526 [color=red, label="526:1", pos="-17,42.5!"]
+  529 [color=red, label="529:1", pos="-16,42.5!"]
+  532 [color=red, label="532:1", pos="-15,42.5!"]
+  535 [color=red, label="535:1", pos="-14,42.5!"]
+  538 [color=red, label="538:1", pos="-13,42.5!"]
+  541 [color=red, label="541:1", pos="-12,42.5!"]
+  544 [color=red, label="544:1", pos="-11,42.5!"]
+  547 [color=red, label="547:1", pos="-10,42.5!"]
+  550 [color=red, label="550:1", pos="-9,42.5!"]
+  553 [color=red, label="553:1", pos="-8,42.5!"]
+  556 [color=red, label="556:1", pos="-7,42.5!"]
+  559 [color=red, label="559:1", pos="-6,42.5!"]
+  562 [color=red, label="562:1", pos="-5,42.5!"]
+  565 [color=red, label="565:1", pos="-4,42.5!"]
+  568 [color=red, label="568:1", pos="-3,42.5!"]
+  571 [color=red, label="571:1", pos="-2,42.5!"]
+  574 [color=green, label="574:1", pos="-15.5,44.0!"]
+  575 [color=red, label="575:1", pos="-1,44.0!"]
+  576 [color=green, label="576", pos="7,45.0!"]
+  577 [color=red, label="577", pos="28,45.0!"]
+  578 [color=green, label="578", pos="0,46.0!"]
+  579 [color=green, label="579", pos="1,46.0!"]
+  580 [color=green, label="580", pos="3,46.0!"]
+  581 [color=green, label="581", pos="4,46.0!"]
+  582 [color=green, label="582", pos="6,46.0!"]
+  583 [color=green, label="583", pos="7,46.0!"]
+  584 [color=green, label="584", pos="8,46.0!"]
+  585 [color=green, label="585", pos="9,46.0!"]
+  586 [color=green, label="586", pos="11,46.0!"]
+  587 [color=green, label="587", pos="12,46.0!"]
+  588 [color=green, label="588", pos="13,46.0!"]
+  589 [color=green, label="589", pos="14,46.0!"]
+  590 [color=green, label="590", pos="15,46.0!"]
+  591 [color=green, label="591", pos="16,46.0!"]
+  592 [color=green, label="592", pos="19,46.0!"]
+  593 [color=green, label="593", pos="20,46.0!"]
+  594 [color=green, label="594", pos="24,46.0!"]
+  595 [color=green, label="595", pos="25,46.0!"]
+  596 [color=green, label="596", pos="27,46.0!"]
+  597 [color=green, label="597", pos="28,46.0!"]
+  598 [color=green, label="598", pos="29,46.0!"]
+  599 [color=green, label="599", pos="31,46.0!"]
+  600 [color=green, label="600", pos="32,46.0!"]
+  601 [color=green, label="601", pos="35,46.0!"]
+  602 [color=green, label="602", pos="36,46.0!"]
+  603 [color=green, label="603", pos="37,46.0!"]
+  604 [color=green, label="604", pos="38,46.0!"]
+  605 [color=green, label="605", pos="41,46.0!"]
+  606 [color=green, label="606", pos="42,46.0!"]
+  607 [color=red, label="607", pos="44,46.0!"]
+  608 [color=green, label="608:1", pos="-0.5,48.0!"]
+  611 [color=red, label="611:1", pos="-30,48.0!"]
+  614 [color=red, label="614:1", pos="-29,48.0!"]
+  617 [color=red, label="617:1", pos="-28,48.0!"]
+  620 [color=red, label="620:1", pos="-27,48.0!"]
+  623 [color=red, label="623:1", pos="-26,48.0!"]
+  626 [color=red, label="626:1", pos="-25,48.0!"]
+  629 [color=red, label="629:1", pos="-24,48.0!"]
+  632 [color=red, label="632:1", pos="-23,48.0!"]
+  635 [color=red, label="635:1", pos="-22,48.0!"]
+  638 [color=red, label="638:1", pos="-21,48.0!"]
+  641 [color=red, label="641:1", pos="-20,48.0!"]
+  644 [color=red, label="644:1", pos="-19,48.0!"]
+  647 [color=red, label="647:1", pos="-18,48.0!"]
+  650 [color=red, label="650:1", pos="-17,48.0!"]
+  653 [color=red, label="653:1", pos="-16,48.0!"]
+  656 [color=red, label="656:1", pos="-15,48.0!"]
+  659 [color=red, label="659:1", pos="-14,48.0!"]
+  662 [color=red, label="662:1", pos="-13,48.0!"]
+  665 [color=red, label="665:1", pos="-12,48.0!"]
+  668 [color=red, label="668:1", pos="-11,48.0!"]
+  671 [color=red, label="671:1", pos="-10,48.0!"]
+  674 [color=red, label="674:1", pos="-9,48.0!"]
+  677 [color=red, label="677:1", pos="-8,48.0!"]
+  680 [color=red, label="680:1", pos="-7,48.0!"]
+  683 [color=red, label="683:1", pos="-6,48.0!"]
+  686 [color=red, label="686:1", pos="-5,48.0!"]
+  689 [color=red, label="689:1", pos="-4,48.0!"]
+  692 [color=red, label="692:1", pos="-3,48.0!"]
+  695 [color=red, label="695:1", pos="-2,48.0!"]
+  698 [color=green, label="698:1", pos="-15.5,49.5!"]
+  699 [color=red, label="699:1", pos="-1,49.5!"]
+  700 [color=red, label="700", pos="2,50.5!"]
+  701 [color=green, label="701", pos="12,50.5!"]
+  702 [color=green, label="702", pos="25,51.5!"]
+  703 [color=red, label="703", pos="39,51.5!"]
+  704 [color=green, label="704", pos="27,52.5!"]
+  705 [color=red, label="705", pos="35,52.5!"]
+  706 [color=red, label="706", pos="2,53.5!"]
+  707 [color=green, label="707", pos="16,53.5!"]
+  708 [color=red, label="708", pos="3,54.5!"]
+  709 [color=green, label="709", pos="31,54.5!"]
+  710 [color=green, label="710", pos="8,55.5!"]
+  711 [color=red, label="711", pos="30,55.5!"]
+  712 [color=green, label="712", pos="0,56.5!"]
+  713 [color=green, label="713", pos="1,56.5!"]
+  714 [color=green, label="714", pos="3,56.5!"]
+  715 [color=green, label="715", pos="4,56.5!"]
+  716 [color=green, label="716", pos="6,56.5!"]
+  717 [color=green, label="717", pos="7,56.5!"]
+  718 [color=green, label="718", pos="8,56.5!"]
+  719 [color=green, label="719", pos="9,56.5!"]
+  720 [color=green, label="720", pos="10,56.5!"]
+  721 [color=green, label="721", pos="11,56.5!"]
+  722 [color=green, label="722", pos="12,56.5!"]
+  723 [color=green, label="723", pos="13,56.5!"]
+  724 [color=green, label="724", pos="14,56.5!"]
+  725 [color=green, label="725", pos="15,56.5!"]
+  726 [color=green, label="726", pos="16,56.5!"]
+  727 [color=green, label="727", pos="18,56.5!"]
+  728 [color=green, label="728", pos="19,56.5!"]
+  729 [color=green, label="729", pos="20,56.5!"]
+  730 [color=green, label="730", pos="21,56.5!"]
+  731 [color=green, label="731", pos="23,56.5!"]
+  732 [color=green, label="732", pos="24,56.5!"]
+  733 [color=green, label="733", pos="25,56.5!"]
+  734 [color=green, label="734", pos="26,56.5!"]
+  735 [color=green, label="735", pos="27,56.5!"]
+  736 [color=green, label="736", pos="30,56.5!"]
+  737 [color=green, label="737", pos="32,56.5!"]
+  738 [color=green, label="738", pos="34,56.5!"]
+  739 [color=green, label="739", pos="37,56.5!"]
+  740 [color=green, label="740", pos="38,56.5!"]
+  741 [color=green, label="741", pos="39,56.5!"]
+  742 [color=green, label="742", pos="42,56.5!"]
+  743 [color=red, label="743", pos="48,56.5!"]
+  744 [color=green, label="744:1", pos="-0.5,58.5!"]
+  747 [color=red, label="747:1", pos="-32,58.5!"]
+  750 [color=red, label="750:1", pos="-31,58.5!"]
+  753 [color=red, label="753:1", pos="-30,58.5!"]
+  756 [color=red, label="756:1", pos="-29,58.5!"]
+  759 [color=red, label="759:1", pos="-28,58.5!"]
+  762 [color=red, label="762:1", pos="-27,58.5!"]
+  765 [color=red, label="765:1", pos="-26,58.5!"]
+  768 [color=red, label="768:1", pos="-25,58.5!"]
+  771 [color=red, label="771:1", pos="-24,58.5!"]
+  774 [color=red, label="774:1", pos="-23,58.5!"]
+  777 [color=red, label="777:1", pos="-22,58.5!"]
+  780 [color=red, label="780:1", pos="-21,58.5!"]
+  783 [color=red, label="783:1", pos="-20,58.5!"]
+  786 [color=red, label="786:1", pos="-19,58.5!"]
+  789 [color=red, label="789:1", pos="-18,58.5!"]
+  792 [color=red, label="792:1", pos="-17,58.5!"]
+  795 [color=red, label="795:1", pos="-16,58.5!"]
+  798 [color=red, label="798:1", pos="-15,58.5!"]
+  801 [color=red, label="801:1", pos="-14,58.5!"]
+  804 [color=red, label="804:1", pos="-13,58.5!"]
+  807 [color=red, label="807:1", pos="-12,58.5!"]
+  810 [color=red, label="810:1", pos="-11,58.5!"]
+  813 [color=red, label="813:1", pos="-10,58.5!"]
+  816 [color=red, label="816:1", pos="-9,58.5!"]
+  819 [color=red, label="819:1", pos="-8,58.5!"]
+  822 [color=red, label="822:1", pos="-7,58.5!"]
+  825 [color=red, label="825:1", pos="-6,58.5!"]
+  828 [color=red, label="828:1", pos="-5,58.5!"]
+  831 [color=red, label="831:1", pos="-4,58.5!"]
+  834 [color=red, label="834:1", pos="-3,58.5!"]
+  837 [color=red, label="837:1", pos="-2,58.5!"]
+  840 [color=green, label="840:1", pos="-16.5,60.0!"]
+  841 [color=red, label="841:1", pos="-1,60.0!"]
+  842 [color=red, label="842", pos="5,61.0!"]
+  843 [color=green, label="843", pos="39,61.0!"]
+  844 [color=green, label="844", pos="11,62.0!"]
+  845 [color=red, label="845", pos="26,62.0!"]
+  846 [color=green, label="846", pos="7,63.0!"]
+  847 [color=red, label="847", pos="35,63.0!"]
+  848 [color=red, label="848", pos="28,64.0!"]
+  849 [color=green, label="849", pos="30,64.0!"]
+  850 [color=green, label="850", pos="1,65.0!"]
+  851 [color=green, label="851", pos="2,65.0!"]
+  852 [color=green, label="852", pos="3,65.0!"]
+  853 [color=green, label="853", pos="5,65.0!"]
+  854 [color=green, label="854", pos="9,65.0!"]
+  855 [color=green, label="855", pos="13,65.0!"]
+  856 [color=green, label="856", pos="17,65.0!"]
+  857 [color=green, label="857", pos="20,65.0!"]
+  858 [color=green, label="858", pos="21,65.0!"]
+  859 [color=green, label="859", pos="22,65.0!"]
+  860 [color=green, label="860", pos="24,65.0!"]
+  861 [color=green, label="861", pos="25,65.0!"]
+  862 [color=green, label="862", pos="27,65.0!"]
+  863 [color=green, label="863", pos="28,65.0!"]
+  864 [color=green, label="864", pos="29,65.0!"]
+  865 [color=green, label="865", pos="32,65.0!"]
+  866 [color=green, label="866", pos="34,65.0!"]
+  867 [color=green, label="867", pos="35,65.0!"]
+  868 [color=green, label="868", pos="36,65.0!"]
+  869 [color=green, label="869", pos="37,65.0!"]
+  870 [color=green, label="870", pos="39,65.0!"]
+  871 [color=green, label="871", pos="42,65.0!"]
+  872 [color=red, label="872", pos="43,65.0!"]
+  873 [color=green, label="873:1", pos="-0.5,67.0!"]
+  876 [color=red, label="876:1", pos="-23,67.0!"]
+  879 [color=red, label="879:1", pos="-22,67.0!"]
+  882 [color=red, label="882:1", pos="-21,67.0!"]
+  885 [color=red, label="885:1", pos="-20,67.0!"]
+  888 [color=red, label="888:1", pos="-19,67.0!"]
+  891 [color=red, label="891:1", pos="-18,67.0!"]
+  894 [color=red, label="894:1", pos="-17,67.0!"]
+  897 [color=red, label="897:1", pos="-16,67.0!"]
+  900 [color=red, label="900:1", pos="-15,67.0!"]
+  903 [color=red, label="903:1", pos="-14,67.0!"]
+  906 [color=red, label="906:1", pos="-13,67.0!"]
+  909 [color=red, label="909:1", pos="-12,67.0!"]
+  912 [color=red, label="912:1", pos="-11,67.0!"]
+  915 [color=red, label="915:1", pos="-10,67.0!"]
+  918 [color=red, label="918:1", pos="-9,67.0!"]
+  921 [color=red, label="921:1", pos="-8,67.0!"]
+  924 [color=red, label="924:1", pos="-7,67.0!"]
+  927 [color=red, label="927:1", pos="-6,67.0!"]
+  930 [color=red, label="930:1", pos="-5,67.0!"]
+  933 [color=red, label="933:1", pos="-4,67.0!"]
+  936 [color=red, label="936:1", pos="-3,67.0!"]
+  939 [color=red, label="939:1", pos="-2,67.0!"]
+  942 [color=green, label="942:1", pos="-11.5,68.5!"]
+  943 [color=red, label="943:1", pos="-1,68.5!"]
+  944 [color=red, label="944", pos="15,69.5!"]
+  945 [color=green, label="945", pos="30,69.5!"]
+  946 [color=red, label="946:1", pos="12,70.5!"]
+  947 [color=green, label="947", pos="3,71.5!"]
+  948 [color=green, label="948", pos="5,71.5!"]
+  949 [color=green, label="949", pos="10,71.5!"]
+  950 [color=green, label="950", pos="11,71.5!"]
+  951 [color=green, label="951", pos="14,71.5!"]
+  952 [color=green, label="952", pos="15,71.5!"]
+  953 [color=green, label="953", pos="16,71.5!"]
+  954 [color=green, label="954", pos="19,71.5!"]
+  955 [color=green, label="955", pos="21,71.5!"]
+  956 [color=green, label="956", pos="22,71.5!"]
+  957 [color=green, label="957", pos="25,71.5!"]
+  958 [color=green, label="958", pos="26,71.5!"]
+  959 [color=green, label="959", pos="30,71.5!"]
+  960 [color=green, label="960", pos="35,71.5!"]
+  961 [color=green, label="961", pos="36,71.5!"]
+  962 [color=green, label="962", pos="37,71.5!"]
+  963 [color=green, label="963", pos="39,71.5!"]
+  964 [color=green, label="964", pos="42,71.5!"]
+  965 [color=red, label="965", pos="47,71.5!"]
+  966 [color=green, label="966:1", pos="-0.5,73.5!"]
+  969 [color=red, label="969:1", pos="-19,73.5!"]
+  972 [color=red, label="972:1", pos="-18,73.5!"]
+  975 [color=red, label="975:1", pos="-17,73.5!"]
+  978 [color=red, label="978:1", pos="-16,73.5!"]
+  981 [color=red, label="981:1", pos="-15,73.5!"]
+  984 [color=red, label="984:1", pos="-14,73.5!"]
+  987 [color=red, label="987:1", pos="-13,73.5!"]
+  990 [color=red, label="990:1", pos="-12,73.5!"]
+  993 [color=red, label="993:1", pos="-11,73.5!"]
+  996 [color=red, label="996:1", pos="-10,73.5!"]
+  999 [color=red, label="999:1", pos="-9,73.5!"]
+  1002 [color=red, label="1002:1", pos="-8,73.5!"]
+  1005 [color=red, label="1005:1", pos="-7,73.5!"]
+  1008 [color=red, label="1008:1", pos="-6,73.5!"]
+  1011 [color=red, label="1011:1", pos="-5,73.5!"]
+  1014 [color=red, label="1014:1", pos="-4,73.5!"]
+  1017 [color=red, label="1017:1", pos="-3,73.5!"]
+  1020 [color=red, label="1020:1", pos="-2,73.5!"]
+  1023 [color=green, label="1023:1", pos="-9.5,75.0!"]
+  1024 [color=red, label="1024:1", pos="-1,75.0!"]
+  1025 [color=red, label="1025:1", pos="15,76.0!"]
+  1026 [color=green, label="1026", pos="6,77.0!"]
+  1027 [color=red, label="1027", pos="39,77.0!"]
+  1028 [color=green, label="1028", pos="2,78.0!"]
+  1029 [color=red, label="1029", pos="37,78.0!"]
+  1030 [color=red, label="1030:1", pos="9,79.0!"]
+  1031 [color=green, label="1031", pos="0,80.0!"]
+  1032 [color=green, label="1032", pos="3,80.0!"]
+  1033 [color=green, label="1033", pos="4,80.0!"]
+  1034 [color=green, label="1034", pos="5,80.0!"]
+  1035 [color=green, label="1035", pos="6,80.0!"]
+  1036 [color=green, label="1036", pos="7,80.0!"]
+  1037 [color=green, label="1037", pos="8,80.0!"]
+  1038 [color=green, label="1038", pos="9,80.0!"]
+  1039 [color=green, label="1039", pos="10,80.0!"]
+  1040 [color=green, label="1040", pos="11,80.0!"]
+  1041 [color=green, label="1041", pos="12,80.0!"]
+  1042 [color=green, label="1042", pos="13,80.0!"]
+  1043 [color=green, label="1043", pos="14,80.0!"]
+  1044 [color=green, label="1044", pos="15,80.0!"]
+  1045 [color=green, label="1045", pos="16,80.0!"]
+  1046 [color=green, label="1046", pos="17,80.0!"]
+  1047 [color=green, label="1047", pos="18,80.0!"]
+  1048 [color=green, label="1048", pos="19,80.0!"]
+  1049 [color=green, label="1049", pos="20,80.0!"]
+  1050 [color=green, label="1050", pos="21,80.0!"]
+  1051 [color=green, label="1051", pos="22,80.0!"]
+  1052 [color=green, label="1052", pos="23,80.0!"]
+  1053 [color=green, label="1053", pos="24,80.0!"]
+  1054 [color=green, label="1054", pos="25,80.0!"]
+  1055 [color=green, label="1055", pos="26,80.0!"]
+  1056 [color=green, label="1056", pos="28,80.0!"]
+  1057 [color=green, label="1057", pos="29,80.0!"]
+  1058 [color=green, label="1058", pos="30,80.0!"]
+  1059 [color=green, label="1059", pos="31,80.0!"]
+  1060 [color=green, label="1060", pos="32,80.0!"]
+  1061 [color=green, label="1061", pos="34,80.0!"]
+  1062 [color=green, label="1062", pos="35,80.0!"]
+  1063 [color=green, label="1063", pos="36,80.0!"]
+  1064 [color=green, label="1064", pos="37,80.0!"]
+  1065 [color=green, label="1065", pos="38,80.0!"]
+  1066 [color=green, label="1066", pos="40,80.0!"]
+  1067 [color=red, label="1067", pos="45,80.0!"]
+  1068 [color=green, label="1068:1", pos="-0.5,82.0!"]
+  1071 [color=red, label="1071:1", pos="-37,82.0!"]
+  1074 [color=red, label="1074:1", pos="-36,82.0!"]
+  1077 [color=red, label="1077:1", pos="-35,82.0!"]
+  1080 [color=red, label="1080:1", pos="-34,82.0!"]
+  1083 [color=red, label="1083:1", pos="-33,82.0!"]
+  1086 [color=red, label="1086:1", pos="-32,82.0!"]
+  1089 [color=red, label="1089:1", pos="-31,82.0!"]
+  1092 [color=red, label="1092:1", pos="-30,82.0!"]
+  1095 [color=red, label="1095:1", pos="-29,82.0!"]
+  1098 [color=red, label="1098:1", pos="-28,82.0!"]
+  1101 [color=red, label="1101:1", pos="-27,82.0!"]
+  1104 [color=red, label="1104:1", pos="-26,82.0!"]
+  1107 [color=red, label="1107:1", pos="-25,82.0!"]
+  1110 [color=red, label="1110:1", pos="-24,82.0!"]
+  1113 [color=red, label="1113:1", pos="-23,82.0!"]
+  1116 [color=red, label="1116:1", pos="-22,82.0!"]
+  1119 [color=red, label="1119:1", pos="-21,82.0!"]
+  1122 [color=red, label="1122:1", pos="-20,82.0!"]
+  1125 [color=red, label="1125:1", pos="-19,82.0!"]
+  1128 [color=red, label="1128:1", pos="-18,82.0!"]
+  1131 [color=red, label="1131:1", pos="-17,82.0!"]
+  1134 [color=red, label="1134:1", pos="-16,82.0!"]
+  1137 [color=red, label="1137:1", pos="-15,82.0!"]
+  1140 [color=red, label="1140:1", pos="-14,82.0!"]
+  1143 [color=red, label="1143:1", pos="-13,82.0!"]
+  1146 [color=red, label="1146:1", pos="-12,82.0!"]
+  1149 [color=red, label="1149:1", pos="-11,82.0!"]
+  1152 [color=red, label="1152:1", pos="-10,82.0!"]
+  1155 [color=red, label="1155:1", pos="-9,82.0!"]
+  1158 [color=red, label="1158:1", pos="-8,82.0!"]
+  1161 [color=red, label="1161:1", pos="-7,82.0!"]
+  1164 [color=red, label="1164:1", pos="-6,82.0!"]
+  1167 [color=red, label="1167:1", pos="-5,82.0!"]
+  1170 [color=red, label="1170:1", pos="-4,82.0!"]
+  1173 [color=red, label="1173:1", pos="-3,82.0!"]
+  1176 [color=red, label="1176:1", pos="-2,82.0!"]
+  1179 [color=green, label="1179:1", pos="-18.5,83.5!"]
+  1180 [color=red, label="1180:1", pos="-1,83.5!"]
+  1181 [color=red, label="1181:1", pos="39,84.5!"]
+  1182 [color=red, label="1182:1", pos="18,85.5!"]
+  1183 [color=red, label="1183", pos="14,86.5!"]
+  1184 [color=green, label="1184", pos="16,86.5!"]
+  1185 [color=green, label="1185", pos="3,87.5!"]
+  1186 [color=green, label="1186", pos="18,87.5!"]
+  1187 [color=green, label="1187", pos="19,87.5!"]
+  1188 [color=green, label="1188", pos="24,87.5!"]
+  1189 [color=green, label="1189", pos="36,87.5!"]
+  1190 [color=red, label="1190", pos="48,87.5!"]
+  1191 [color=green, label="1191:1", pos="-0.5,89.5!"]
+  1194 [color=red, label="1194:1", pos="-6,89.5!"]
+  1197 [color=red, label="1197:1", pos="-5,89.5!"]
+  1200 [color=red, label="1200:1", pos="-4,89.5!"]
+  1203 [color=red, label="1203:1", pos="-3,89.5!"]
+  1206 [color=red, label="1206:1", pos="-2,89.5!"]
+  1209 [color=green, label="1209:1", pos="-3.5,91.0!"]
+  1210 [color=red, label="1210:1", pos="-1,91.0!"]
+  1211 [color=green, label="1211", pos="2,92.0!"]
+  1212 [color=red, label="1212", pos="39,92.0!"]
+  1213 [color=red, label="1213", pos="3,93.0!"]
+  1214 [color=green, label="1214", pos="7,93.0!"]
+  1215 [color=red, label="1215", pos="10,94.0!"]
+  1216 [color=green, label="1216", pos="11,94.0!"]
+  1217 [color=green, label="1217", pos="21,95.0!"]
+  1218 [color=red, label="1218", pos="34,95.0!"]
+  1219 [color=green, label="1219", pos="14,96.0!"]
+  1220 [color=red, label="1220", pos="30,96.0!"]
+  1221 [color=red, label="1221", pos="18,97.0!"]
+  1222 [color=green, label="1222", pos="31,97.0!"]
+  1223 [color=red, label="1223", pos="10,98.0!"]
+  1224 [color=green, label="1224", pos="26,98.0!"]
+  1225 [color=red, label="1225", pos="19,99.0!"]
+  1226 [color=green, label="1226", pos="40,99.0!"]
+  1227 [color=green, label="1227", pos="0,100.0!"]
+  1228 [color=green, label="1228", pos="1,100.0!"]
+  1229 [color=green, label="1229", pos="3,100.0!"]
+  1230 [color=green, label="1230", pos="4,100.0!"]
+  1231 [color=green, label="1231", pos="5,100.0!"]
+  1232 [color=green, label="1232", pos="6,100.0!"]
+  1233 [color=green, label="1233", pos="7,100.0!"]
+  1234 [color=green, label="1234", pos="8,100.0!"]
+  1235 [color=green, label="1235", pos="9,100.0!"]
+  1236 [color=green, label="1236", pos="10,100.0!"]
+  1237 [color=green, label="1237", pos="11,100.0!"]
+  1238 [color=green, label="1238", pos="12,100.0!"]
+  1239 [color=green, label="1239", pos="13,100.0!"]
+  1240 [color=green, label="1240", pos="14,100.0!"]
+  1241 [color=green, label="1241", pos="15,100.0!"]
+  1242 [color=green, label="1242", pos="16,100.0!"]
+  1243 [color=green, label="1243", pos="17,100.0!"]
+  1244 [color=green, label="1244", pos="18,100.0!"]
+  1245 [color=green, label="1245", pos="19,100.0!"]
+  1246 [color=green, label="1246", pos="20,100.0!"]
+  1247 [color=green, label="1247", pos="21,100.0!"]
+  1248 [color=green, label="1248", pos="22,100.0!"]
+  1249 [color=green, label="1249", pos="23,100.0!"]
+  1250 [color=green, label="1250", pos="24,100.0!"]
+  1251 [color=green, label="1251", pos="25,100.0!"]
+  1252 [color=green, label="1252", pos="26,100.0!"]
+  1253 [color=green, label="1253", pos="27,100.0!"]
+  1254 [color=green, label="1254", pos="29,100.0!"]
+  1255 [color=green, label="1255", pos="30,100.0!"]
+  1256 [color=green, label="1256", pos="32,100.0!"]
+  1257 [color=green, label="1257", pos="33,100.0!"]
+  1258 [color=green, label="1258", pos="34,100.0!"]
+  1259 [color=green, label="1259", pos="35,100.0!"]
+  1260 [color=green, label="1260", pos="36,100.0!"]
+  1261 [color=green, label="1261", pos="37,100.0!"]
+  1262 [color=green, label="1262", pos="39,100.0!"]
+  1263 [color=green, label="1263", pos="40,100.0!"]
+  1264 [color=green, label="1264", pos="42,100.0!"]
+  1265 [color=red, label="1265", pos="49,100.0!"]
+  1266 [color=green, label="1266:1", pos="-0.5,102.0!"]
+  1269 [color=red, label="1269:1", pos="-39,102.0!"]
+  1272 [color=red, label="1272:1", pos="-38,102.0!"]
+  1275 [color=red, label="1275:1", pos="-37,102.0!"]
+  1278 [color=red, label="1278:1", pos="-36,102.0!"]
+  1281 [color=red, label="1281:1", pos="-35,102.0!"]
+  1284 [color=red, label="1284:1", pos="-34,102.0!"]
+  1287 [color=red, label="1287:1", pos="-33,102.0!"]
+  1290 [color=red, label="1290:1", pos="-32,102.0!"]
+  1293 [color=red, label="1293:1", pos="-31,102.0!"]
+  1296 [color=red, label="1296:1", pos="-30,102.0!"]
+  1299 [color=red, label="1299:1", pos="-29,102.0!"]
+  1302 [color=red, label="1302:1", pos="-28,102.0!"]
+  1305 [color=red, label="1305:1", pos="-27,102.0!"]
+  1308 [color=red, label="1308:1", pos="-26,102.0!"]
+  1311 [color=red, label="1311:1", pos="-25,102.0!"]
+  1314 [color=red, label="1314:1", pos="-24,102.0!"]
+  1317 [color=red, label="1317:1", pos="-23,102.0!"]
+  1320 [color=red, label="1320:1", pos="-22,102.0!"]
+  1323 [color=red, label="1323:1", pos="-21,102.0!"]
+  1326 [color=red, label="1326:1", pos="-20,102.0!"]
+  1329 [color=red, label="1329:1", pos="-19,102.0!"]
+  1332 [color=red, label="1332:1", pos="-18,102.0!"]
+  1335 [color=red, label="1335:1", pos="-17,102.0!"]
+  1338 [color=red, label="1338:1", pos="-16,102.0!"]
+  1341 [color=red, label="1341:1", pos="-15,102.0!"]
+  1344 [color=red, label="1344:1", pos="-14,102.0!"]
+  1347 [color=red, label="1347:1", pos="-13,102.0!"]
+  1350 [color=red, label="1350:1", pos="-12,102.0!"]
+  1353 [color=red, label="1353:1", pos="-11,102.0!"]
+  1356 [color=red, label="1356:1", pos="-10,102.0!"]
+  1359 [color=red, label="1359:1", pos="-9,102.0!"]
+  1362 [color=red, label="1362:1", pos="-8,102.0!"]
+  1365 [color=red, label="1365:1", pos="-7,102.0!"]
+  1368 [color=red, label="1368:1", pos="-6,102.0!"]
+  1371 [color=red, label="1371:1", pos="-5,102.0!"]
+  1374 [color=red, label="1374:1", pos="-4,102.0!"]
+  1377 [color=red, label="1377:1", pos="-3,102.0!"]
+  1380 [color=red, label="1380:1", pos="-2,102.0!"]
+  1383 [color=green, label="1383:1", pos="-19.5,103.5!"]
+  1384 [color=red, label="1384:1", pos="-1,103.5!"]
+  1385 [color=green, label="1385", pos="1,104.5!"]
+  1386 [color=red, label="1386", pos="23,104.5!"]
+  1387 [color=red, label="1387:1", pos="23,105.5!"]
+  1388 [color=green, label="1388", pos="27,106.5!"]
+  1389 [color=red, label="1389", pos="41,106.5!"]
+  1390 [color=red, label="1390:1", pos="23,107.5!"]
+  1391 [color=red, label="1391", pos="0,108.5!"]
+  1392 [color=green, label="1392", pos="5,108.5!"]
+  1393 [color=red, label="1393:1", pos="34,109.5!"]
+  1394 [color=green, label="1394", pos="0,110.5!"]
+  1395 [color=green, label="1395", pos="1,110.5!"]
+  1396 [color=green, label="1396", pos="3,110.5!"]
+  1397 [color=green, label="1397", pos="4,110.5!"]
+  1398 [color=green, label="1398", pos="5,110.5!"]
+  1399 [color=green, label="1399", pos="6,110.5!"]
+  1400 [color=green, label="1400", pos="7,110.5!"]
+  1401 [color=green, label="1401", pos="8,110.5!"]
+  1402 [color=green, label="1402", pos="9,110.5!"]
+  1403 [color=green, label="1403", pos="10,110.5!"]
+  1404 [color=green, label="1404", pos="11,110.5!"]
+  1405 [color=green, label="1405", pos="13,110.5!"]
+  1406 [color=green, label="1406", pos="15,110.5!"]
+  1407 [color=green, label="1407", pos="16,110.5!"]
+  1408 [color=green, label="1408", pos="18,110.5!"]
+  1409 [color=green, label="1409", pos="19,110.5!"]
+  1410 [color=green, label="1410", pos="20,110.5!"]
+  1411 [color=green, label="1411", pos="21,110.5!"]
+  1412 [color=green, label="1412", pos="22,110.5!"]
+  1413 [color=green, label="1413", pos="23,110.5!"]
+  1414 [color=green, label="1414", pos="25,110.5!"]
+  1415 [color=green, label="1415", pos="26,110.5!"]
+  1416 [color=green, label="1416", pos="27,110.5!"]
+  1417 [color=green, label="1417", pos="28,110.5!"]
+  1418 [color=green, label="1418", pos="30,110.5!"]
+  1419 [color=green, label="1419", pos="31,110.5!"]
+  1420 [color=green, label="1420", pos="32,110.5!"]
+  1421 [color=green, label="1421", pos="33,110.5!"]
+  1422 [color=green, label="1422", pos="34,110.5!"]
+  1423 [color=green, label="1423", pos="36,110.5!"]
+  1424 [color=green, label="1424", pos="38,110.5!"]
+  1425 [color=green, label="1425", pos="39,110.5!"]
+  1426 [color=green, label="1426", pos="40,110.5!"]
+  1427 [color=green, label="1427", pos="41,110.5!"]
+  1428 [color=red, label="1428", pos="46,110.5!"]
+  1429 [color=green, label="1429:1", pos="-0.5,112.5!"]
+  1432 [color=red, label="1432:1", pos="-35,112.5!"]
+  1435 [color=red, label="1435:1", pos="-34,112.5!"]
+  1438 [color=red, label="1438:1", pos="-33,112.5!"]
+  1441 [color=red, label="1441:1", pos="-32,112.5!"]
+  1444 [color=red, label="1444:1", pos="-31,112.5!"]
+  1447 [color=red, label="1447:1", pos="-30,112.5!"]
+  1450 [color=red, label="1450:1", pos="-29,112.5!"]
+  1453 [color=red, label="1453:1", pos="-28,112.5!"]
+  1456 [color=red, label="1456:1", pos="-27,112.5!"]
+  1459 [color=red, label="1459:1", pos="-26,112.5!"]
+  1462 [color=red, label="1462:1", pos="-25,112.5!"]
+  1465 [color=red, label="1465:1", pos="-24,112.5!"]
+  1468 [color=red, label="1468:1", pos="-23,112.5!"]
+  1471 [color=red, label="1471:1", pos="-22,112.5!"]
+  1474 [color=red, label="1474:1", pos="-21,112.5!"]
+  1477 [color=red, label="1477:1", pos="-20,112.5!"]
+  1480 [color=red, label="1480:1", pos="-19,112.5!"]
+  1483 [color=red, label="1483:1", pos="-18,112.5!"]
+  1486 [color=red, label="1486:1", pos="-17,112.5!"]
+  1489 [color=red, label="1489:1", pos="-16,112.5!"]
+  1492 [color=red, label="1492:1", pos="-15,112.5!"]
+  1495 [color=red, label="1495:1", pos="-14,112.5!"]
+  1498 [color=red, label="1498:1", pos="-13,112.5!"]
+  1501 [color=red, label="1501:1", pos="-12,112.5!"]
+  1504 [color=red, label="1504:1", pos="-11,112.5!"]
+  1507 [color=red, label="1507:1", pos="-10,112.5!"]
+  1510 [color=red, label="1510:1", pos="-9,112.5!"]
+  1513 [color=red, label="1513:1", pos="-8,112.5!"]
+  1516 [color=red, label="1516:1", pos="-7,112.5!"]
+  1519 [color=red, label="1519:1", pos="-6,112.5!"]
+  1522 [color=red, label="1522:1", pos="-5,112.5!"]
+  1525 [color=red, label="1525:1", pos="-4,112.5!"]
+  1528 [color=red, label="1528:1", pos="-3,112.5!"]
+  1531 [color=red, label="1531:1", pos="-2,112.5!"]
+  1534 [color=green, label="1534:1", pos="-17.5,114.0!"]
+  1535 [color=red, label="1535:1", pos="-1,114.0!"]
+  1536 [color=red, label="1536", pos="24,115.0!"]
+  1537 [color=green, label="1537", pos="32,115.0!"]
+  1538 [color=green, label="1538", pos="33,116.0!"]
+  1539 [color=red, label="1539", pos="37,116.0!"]
+  1540 [color=green, label="1540", pos="8,117.0!"]
+  1541 [color=red, label="1541", pos="11,117.0!"]
+  1542 [color=red, label="1542", pos="15,118.0!"]
+  1543 [color=green, label="1543", pos="34,118.0!"]
+  1544 [color=red, label="1544", pos="5,119.0!"]
+  1545 [color=green, label="1545", pos="29,119.0!"]
+  1546 [color=green, label="1546", pos="2,120.0!"]
+  1547 [color=red, label="1547", pos="42,120.0!"]
+  1548 [color=green, label="1548", pos="8,121.0!"]
+  1549 [color=green, label="1549", pos="19,121.0!"]
+  1550 [color=green, label="1550", pos="21,121.0!"]
+  1551 [color=green, label="1551", pos="28,121.0!"]
+  1552 [color=green, label="1552", pos="32,121.0!"]
+  1553 [color=green, label="1553", pos="38,121.0!"]
+  1554 [color=red, label="1554", pos="46,121.0!"]
+  1555 [color=green, label="1555:1", pos="-0.5,123.0!"]
+  1558 [color=red, label="1558:1", pos="-7,123.0!"]
+  1561 [color=red, label="1561:1", pos="-6,123.0!"]
+  1564 [color=red, label="1564:1", pos="-5,123.0!"]
+  1567 [color=red, label="1567:1", pos="-4,123.0!"]
+  1570 [color=red, label="1570:1", pos="-3,123.0!"]
+  1573 [color=red, label="1573:1", pos="-2,123.0!"]
+  1576 [color=green, label="1576:1", pos="-3.5,124.5!"]
+  1577 [color=red, label="1577:1", pos="-1,124.5!"]
+  1578 [color=green, label="1578", pos="6,125.5!"]
+  1579 [color=red, label="1579", pos="30,125.5!"]
+  1580 [color=red, label="1580", pos="18,126.5!"]
+  1581 [color=green, label="1581", pos="42,126.5!"]
+  1582 [color=red, label="1582", pos="14,127.5!"]
+  1583 [color=green, label="1583", pos="41,127.5!"]
+  1584 [color=green, label="1584", pos="6,128.5!"]
+  1585 [color=red, label="1585", pos="38,128.5!"]
+  1586 [color=red, label="1586", pos="14,129.5!"]
+  1587 [color=green, label="1587", pos="35,129.5!"]
+  1588 [color=red, label="1588", pos="22,130.5!"]
+  1589 [color=green, label="1589", pos="34,130.5!"]
+  1590 [color=green, label="1590", pos="0,131.5!"]
+  1591 [color=green, label="1591", pos="1,131.5!"]
+  1592 [color=green, label="1592", pos="2,131.5!"]
+  1593 [color=green, label="1593", pos="5,131.5!"]
+  1594 [color=green, label="1594", pos="9,131.5!"]
+  1595 [color=green, label="1595", pos="10,131.5!"]
+  1596 [color=green, label="1596", pos="11,131.5!"]
+  1597 [color=green, label="1597", pos="12,131.5!"]
+  1598 [color=green, label="1598", pos="14,131.5!"]
+  1599 [color=green, label="1599", pos="15,131.5!"]
+  1600 [color=green, label="1600", pos="17,131.5!"]
+  1601 [color=green, label="1601", pos="18,131.5!"]
+  1602 [color=green, label="1602", pos="19,131.5!"]
+  1603 [color=green, label="1603", pos="20,131.5!"]
+  1604 [color=green, label="1604", pos="21,131.5!"]
+  1605 [color=green, label="1605", pos="23,131.5!"]
+  1606 [color=green, label="1606", pos="24,131.5!"]
+  1607 [color=green, label="1607", pos="27,131.5!"]
+  1608 [color=green, label="1608", pos="28,131.5!"]
+  1609 [color=green, label="1609", pos="29,131.5!"]
+  1610 [color=green, label="1610", pos="30,131.5!"]
+  1611 [color=green, label="1611", pos="32,131.5!"]
+  1612 [color=green, label="1612", pos="33,131.5!"]
+  1613 [color=green, label="1613", pos="34,131.5!"]
+  1614 [color=green, label="1614", pos="35,131.5!"]
+  1615 [color=green, label="1615", pos="36,131.5!"]
+  1616 [color=green, label="1616", pos="38,131.5!"]
+  1617 [color=green, label="1617", pos="40,131.5!"]
+  1618 [color=green, label="1618", pos="41,131.5!"]
+  1619 [color=red, label="1619", pos="49,131.5!"]
+  1620 [color=green, label="1620:1", pos="-0.5,133.5!"]
+  1623 [color=red, label="1623:1", pos="-30,133.5!"]
+  1626 [color=red, label="1626:1", pos="-29,133.5!"]
+  1629 [color=red, label="1629:1", pos="-28,133.5!"]
+  1632 [color=red, label="1632:1", pos="-27,133.5!"]
+  1635 [color=red, label="1635:1", pos="-26,133.5!"]
+  1638 [color=red, label="1638:1", pos="-25,133.5!"]
+  1641 [color=red, label="1641:1", pos="-24,133.5!"]
+  1644 [color=red, label="1644:1", pos="-23,133.5!"]
+  1647 [color=red, label="1647:1", pos="-22,133.5!"]
+  1650 [color=red, label="1650:1", pos="-21,133.5!"]
+  1653 [color=red, label="1653:1", pos="-20,133.5!"]
+  1656 [color=red, label="1656:1", pos="-19,133.5!"]
+  1659 [color=red, label="1659:1", pos="-18,133.5!"]
+  1662 [color=red, label="1662:1", pos="-17,133.5!"]
+  1665 [color=red, label="1665:1", pos="-16,133.5!"]
+  1668 [color=red, label="1668:1", pos="-15,133.5!"]
+  1671 [color=red, label="1671:1", pos="-14,133.5!"]
+  1674 [color=red, label="1674:1", pos="-13,133.5!"]
+  1677 [color=red, label="1677:1", pos="-12,133.5!"]
+  1680 [color=red, label="1680:1", pos="-11,133.5!"]
+  1683 [color=red, label="1683:1", pos="-10,133.5!"]
+  1686 [color=red, label="1686:1", pos="-9,133.5!"]
+  1689 [color=red, label="1689:1", pos="-8,133.5!"]
+  1692 [color=red, label="1692:1", pos="-7,133.5!"]
+  1695 [color=red, label="1695:1", pos="-6,133.5!"]
+  1698 [color=red, label="1698:1", pos="-5,133.5!"]
+  1701 [color=red, label="1701:1", pos="-4,133.5!"]
+  1704 [color=red, label="1704:1", pos="-3,133.5!"]
+  1707 [color=red, label="1707:1", pos="-2,133.5!"]
+  1710 [color=green, label="1710:1", pos="-15.5,135.0!"]
+  1711 [color=red, label="1711:1", pos="-1,135.0!"]
+  1712 [color=green, label="1712", pos="7,136.0!"]
+  1713 [color=red, label="1713", pos="24,136.0!"]
+  1714 [color=green, label="1714", pos="4,137.0!"]
+  1715 [color=red, label="1715", pos="5,137.0!"]
+  1716 [color=green, label="1716", pos="1,138.0!"]
+  1717 [color=red, label="1717", pos="28,138.0!"]
+  1718 [color=green, label="1718", pos="3,139.0!"]
+  1719 [color=green, label="1719", pos="11,139.0!"]
+  1720 [color=green, label="1720", pos="13,139.0!"]
+  1721 [color=green, label="1721", pos="16,139.0!"]
+  1722 [color=green, label="1722", pos="19,139.0!"]
+  1723 [color=green, label="1723", pos="23,139.0!"]
+  1724 [color=green, label="1724", pos="27,139.0!"]
+  1725 [color=green, label="1725", pos="37,139.0!"]
+  1726 [color=green, label="1726", pos="41,139.0!"]
+  1727 [color=red, label="1727", pos="43,139.0!"]
+  1728 [color=green, label="1728:1", pos="-0.5,141.0!"]
+  1731 [color=red, label="1731:1", pos="-10,141.0!"]
+  1734 [color=red, label="1734:1", pos="-9,141.0!"]
+  1737 [color=red, label="1737:1", pos="-8,141.0!"]
+  1740 [color=red, label="1740:1", pos="-7,141.0!"]
+  1743 [color=red, label="1743:1", pos="-6,141.0!"]
+  1746 [color=red, label="1746:1", pos="-5,141.0!"]
+  1749 [color=red, label="1749:1", pos="-4,141.0!"]
+  1752 [color=red, label="1752:1", pos="-3,141.0!"]
+  1755 [color=red, label="1755:1", pos="-2,141.0!"]
+  1758 [color=green, label="1758:1", pos="-5.5,142.5!"]
+  1759 [color=red, label="1759:1", pos="-1,142.5!"]
+  1760 [color=green, label="1760", pos="6,143.5!"]
+  1761 [color=green, label="1761", pos="10,143.5!"]
+  1762 [color=green, label="1762", pos="14,143.5!"]
+  1763 [color=green, label="1763", pos="28,143.5!"]
+  1764 [color=green, label="1764", pos="30,143.5!"]
+  1765 [color=green, label="1765", pos="36,143.5!"]
+  1766 [color=green, label="1766", pos="38,143.5!"]
+  1767 [color=green, label="1767", pos="39,143.5!"]
+  1768 [color=red, label="1768", pos="49,143.5!"]
+  1769 [color=green, label="1769:1", pos="-0.5,145.5!"]
+  1772 [color=red, label="1772:1", pos="-9,145.5!"]
+  1775 [color=red, label="1775:1", pos="-8,145.5!"]
+  1778 [color=red, label="1778:1", pos="-7,145.5!"]
+  1781 [color=red, label="1781:1", pos="-6,145.5!"]
+  1784 [color=red, label="1784:1", pos="-5,145.5!"]
+  1787 [color=red, label="1787:1", pos="-4,145.5!"]
+  1790 [color=red, label="1790:1", pos="-3,145.5!"]
+  1793 [color=red, label="1793:1", pos="-2,145.5!"]
+  1796 [color=green, label="1796:1", pos="-4.5,147.0!"]
+  1797 [color=red, label="1797:1", pos="-1,147.0!"]
+  1798 [color=green, label="1798", pos="21,148.0!"]
+  1799 [color=red, label="1799", pos="23,148.0!"]
+  1800 [color=green, label="1800", pos="19,149.0!"]
+  1801 [color=red, label="1801", pos="36,149.0!"]
+  1802 [color=red, label="1802", pos="2,150.0!"]
+  1803 [color=green, label="1803", pos="25,150.0!"]
+  1804 [color=red, label="1804", pos="17,151.0!"]
+  1805 [color=green, label="1805", pos="28,151.0!"]
+  1806 [color=green, label="1806", pos="2,152.0!"]
+  1807 [color=red, label="1807", pos="7,152.0!"]
+  1808 [color=red, label="1808:1", pos="30,153.0!"]
+  1809 [color=red, label="1809:1", pos="9,154.0!"]
+  1810 [color=green, label="1810", pos="32,155.0!"]
+  1811 [color=red, label="1811", pos="41,155.0!"]
+  1812 [color=red, label="1812", pos="14,156.0!"]
+  1813 [color=green, label="1813", pos="39,156.0!"]
+  1814 [color=red, label="1814", pos="5,157.0!"]
+  1815 [color=green, label="1815", pos="35,157.0!"]
+  1816 [color=red, label="1816:1", pos="17,158.0!"]
+  1817 [color=green, label="1817", pos="3,159.0!"]
+  1818 [color=green, label="1818", pos="5,159.0!"]
+  1819 [color=green, label="1819", pos="6,159.0!"]
+  1820 [color=green, label="1820", pos="7,159.0!"]
+  1821 [color=green, label="1821", pos="8,159.0!"]
+  1822 [color=green, label="1822", pos="9,159.0!"]
+  1823 [color=green, label="1823", pos="11,159.0!"]
+  1824 [color=green, label="1824", pos="13,159.0!"]
+  1825 [color=green, label="1825", pos="14,159.0!"]
+  1826 [color=green, label="1826", pos="15,159.0!"]
+  1827 [color=green, label="1827", pos="16,159.0!"]
+  1828 [color=green, label="1828", pos="20,159.0!"]
+  1829 [color=green, label="1829", pos="21,159.0!"]
+  1830 [color=green, label="1830", pos="22,159.0!"]
+  1831 [color=green, label="1831", pos="23,159.0!"]
+  1832 [color=green, label="1832", pos="24,159.0!"]
+  1833 [color=green, label="1833", pos="26,159.0!"]
+  1834 [color=green, label="1834", pos="28,159.0!"]
+  1835 [color=green, label="1835", pos="29,159.0!"]
+  1836 [color=green, label="1836", pos="31,159.0!"]
+  1837 [color=green, label="1837", pos="32,159.0!"]
+  1838 [color=green, label="1838", pos="37,159.0!"]
+  1839 [color=green, label="1839", pos="38,159.0!"]
+  1840 [color=green, label="1840", pos="39,159.0!"]
+  1841 [color=green, label="1841", pos="40,159.0!"]
+  1842 [color=green, label="1842", pos="41,159.0!"]
+  1843 [color=red, label="1843", pos="48,159.0!"]
+  1844 [color=green, label="1844:1", pos="-0.5,161.0!"]
+  1847 [color=red, label="1847:1", pos="-27,161.0!"]
+  1850 [color=red, label="1850:1", pos="-26,161.0!"]
+  1853 [color=red, label="1853:1", pos="-25,161.0!"]
+  1856 [color=red, label="1856:1", pos="-24,161.0!"]
+  1859 [color=red, label="1859:1", pos="-23,161.0!"]
+  1862 [color=red, label="1862:1", pos="-22,161.0!"]
+  1865 [color=red, label="1865:1", pos="-21,161.0!"]
+  1868 [color=red, label="1868:1", pos="-20,161.0!"]
+  1871 [color=red, label="1871:1", pos="-19,161.0!"]
+  1874 [color=red, label="1874:1", pos="-18,161.0!"]
+  1877 [color=red, label="1877:1", pos="-17,161.0!"]
+  1880 [color=red, label="1880:1", pos="-16,161.0!"]
+  1883 [color=red, label="1883:1", pos="-15,161.0!"]
+  1886 [color=red, label="1886:1", pos="-14,161.0!"]
+  1889 [color=red, label="1889:1", pos="-13,161.0!"]
+  1892 [color=red, label="1892:1", pos="-12,161.0!"]
+  1895 [color=red, label="1895:1", pos="-11,161.0!"]
+  1898 [color=red, label="1898:1", pos="-10,161.0!"]
+  1901 [color=red, label="1901:1", pos="-9,161.0!"]
+  1904 [color=red, label="1904:1", pos="-8,161.0!"]
+  1907 [color=red, label="1907:1", pos="-7,161.0!"]
+  1910 [color=red, label="1910:1", pos="-6,161.0!"]
+  1913 [color=red, label="1913:1", pos="-5,161.0!"]
+  1916 [color=red, label="1916:1", pos="-4,161.0!"]
+  1919 [color=red, label="1919:1", pos="-3,161.0!"]
+  1922 [color=red, label="1922:1", pos="-2,161.0!"]
+  1925 [color=green, label="1925:1", pos="-13.5,162.5!"]
+  1926 [color=red, label="1926:1", pos="-1,162.5!"]
+  1927 [color=red, label="1927", pos="4,163.5!"]
+  1928 [color=green, label="1928", pos="6,163.5!"]
+  1929 [color=red, label="1929", pos="5,164.5!"]
+  1930 [color=green, label="1930", pos="42,164.5!"]
+  1931 [color=green, label="1931", pos="27,165.5!"]
+  1932 [color=red, label="1932", pos="34,165.5!"]
+  1933 [color=green, label="1933", pos="0,166.5!"]
+  1934 [color=green, label="1934", pos="2,166.5!"]
+  1935 [color=green, label="1935", pos="4,166.5!"]
+  1936 [color=green, label="1936", pos="5,166.5!"]
+  1937 [color=green, label="1937", pos="6,166.5!"]
+  1938 [color=green, label="1938", pos="8,166.5!"]
+  1939 [color=green, label="1939", pos="10,166.5!"]
+  1940 [color=green, label="1940", pos="11,166.5!"]
+  1941 [color=green, label="1941", pos="12,166.5!"]
+  1942 [color=green, label="1942", pos="14,166.5!"]
+  1943 [color=green, label="1943", pos="15,166.5!"]
+  1944 [color=green, label="1944", pos="16,166.5!"]
+  1945 [color=green, label="1945", pos="17,166.5!"]
+  1946 [color=green, label="1946", pos="18,166.5!"]
+  1947 [color=green, label="1947", pos="20,166.5!"]
+  1948 [color=green, label="1948", pos="21,166.5!"]
+  1949 [color=green, label="1949", pos="22,166.5!"]
+  1950 [color=green, label="1950", pos="23,166.5!"]
+  1951 [color=green, label="1951", pos="24,166.5!"]
+  1952 [color=green, label="1952", pos="25,166.5!"]
+  1953 [color=green, label="1953", pos="26,166.5!"]
+  1954 [color=green, label="1954", pos="27,166.5!"]
+  1955 [color=green, label="1955", pos="28,166.5!"]
+  1956 [color=green, label="1956", pos="29,166.5!"]
+  1957 [color=green, label="1957", pos="30,166.5!"]
+  1958 [color=green, label="1958", pos="31,166.5!"]
+  1959 [color=green, label="1959", pos="33,166.5!"]
+  1960 [color=green, label="1960", pos="34,166.5!"]
+  1961 [color=green, label="1961", pos="36,166.5!"]
+  1962 [color=green, label="1962", pos="38,166.5!"]
+  1963 [color=green, label="1963", pos="39,166.5!"]
+  1964 [color=green, label="1964", pos="40,166.5!"]
+  1965 [color=green, label="1965", pos="41,166.5!"]
+  1966 [color=green, label="1966", pos="42,166.5!"]
+  1967 [color=red, label="1967", pos="44,166.5!"]
+  1968 [color=green, label="1968:1", pos="-0.5,168.5!"]
+  1971 [color=red, label="1971:1", pos="-35,168.5!"]
+  1974 [color=red, label="1974:1", pos="-34,168.5!"]
+  1977 [color=red, label="1977:1", pos="-33,168.5!"]
+  1980 [color=red, label="1980:1", pos="-32,168.5!"]
+  1983 [color=red, label="1983:1", pos="-31,168.5!"]
+  1986 [color=red, label="1986:1", pos="-30,168.5!"]
+  1989 [color=red, label="1989:1", pos="-29,168.5!"]
+  1992 [color=red, label="1992:1", pos="-28,168.5!"]
+  1995 [color=red, label="1995:1", pos="-27,168.5!"]
+  1998 [color=red, label="1998:1", pos="-26,168.5!"]
+  2001 [color=red, label="2001:1", pos="-25,168.5!"]
+  2004 [color=red, label="2004:1", pos="-24,168.5!"]
+  2007 [color=red, label="2007:1", pos="-23,168.5!"]
+  2010 [color=red, label="2010:1", pos="-22,168.5!"]
+  2013 [color=red, label="2013:1", pos="-21,168.5!"]
+  2016 [color=red, label="2016:1", pos="-20,168.5!"]
+  2019 [color=red, label="2019:1", pos="-19,168.5!"]
+  2022 [color=red, label="2022:1", pos="-18,168.5!"]
+  2025 [color=red, label="2025:1", pos="-17,168.5!"]
+  2028 [color=red, label="2028:1", pos="-16,168.5!"]
+  2031 [color=red, label="2031:1", pos="-15,168.5!"]
+  2034 [color=red, label="2034:1", pos="-14,168.5!"]
+  2037 [color=red, label="2037:1", pos="-13,168.5!"]
+  2040 [color=red, label="2040:1", pos="-12,168.5!"]
+  2043 [color=red, label="2043:1", pos="-11,168.5!"]
+  2046 [color=red, label="2046:1", pos="-10,168.5!"]
+  2049 [color=red, label="2049:1", pos="-9,168.5!"]
+  2052 [color=red, label="2052:1", pos="-8,168.5!"]
+  2055 [color=red, label="2055:1", pos="-7,168.5!"]
+  2058 [color=red, label="2058:1", pos="-6,168.5!"]
+  2061 [color=red, label="2061:1", pos="-5,168.5!"]
+  2064 [color=red, label="2064:1", pos="-4,168.5!"]
+  2067 [color=red, label="2067:1", pos="-3,168.5!"]
+  2070 [color=red, label="2070:1", pos="-2,168.5!"]
+  2073 [color=green, label="2073:1", pos="-17.5,170.0!"]
+  2074 [color=red, label="2074:1", pos="-1,170.0!"]
+  2075 [color=green, label="2075", pos="0,171.0!"]
+  2076 [color=green, label="2076", pos="1,171.0!"]
+  2077 [color=green, label="2077", pos="2,171.0!"]
+  2078 [color=green, label="2078", pos="5,171.0!"]
+  2079 [color=green, label="2079", pos="8,171.0!"]
+  2080 [color=green, label="2080", pos="10,171.0!"]
+  2081 [color=green, label="2081", pos="11,171.0!"]
+  2082 [color=green, label="2082", pos="12,171.0!"]
+  2083 [color=green, label="2083", pos="13,171.0!"]
+  2084 [color=green, label="2084", pos="15,171.0!"]
+  2085 [color=green, label="2085", pos="17,171.0!"]
+  2086 [color=green, label="2086", pos="19,171.0!"]
+  2087 [color=green, label="2087", pos="20,171.0!"]
+  2088 [color=green, label="2088", pos="22,171.0!"]
+  2089 [color=green, label="2089", pos="23,171.0!"]
+  2090 [color=green, label="2090", pos="24,171.0!"]
+  2091 [color=green, label="2091", pos="25,171.0!"]
+  2092 [color=green, label="2092", pos="26,171.0!"]
+  2093 [color=green, label="2093", pos="33,171.0!"]
+  2094 [color=green, label="2094", pos="34,171.0!"]
+  2095 [color=green, label="2095", pos="37,171.0!"]
+  2096 [color=green, label="2096", pos="38,171.0!"]
+  2097 [color=green, label="2097", pos="39,171.0!"]
+  2098 [color=green, label="2098", pos="40,171.0!"]
+  2099 [color=red, label="2099", pos="47,171.0!"]
+  2100 [color=green, label="2100:1", pos="-0.5,173.0!"]
+  2103 [color=red, label="2103:1", pos="-25,173.0!"]
+  2106 [color=red, label="2106:1", pos="-24,173.0!"]
+  2109 [color=red, label="2109:1", pos="-23,173.0!"]
+  2112 [color=red, label="2112:1", pos="-22,173.0!"]
+  2115 [color=red, label="2115:1", pos="-21,173.0!"]
+  2118 [color=red, label="2118:1", pos="-20,173.0!"]
+  2121 [color=red, label="2121:1", pos="-19,173.0!"]
+  2124 [color=red, label="2124:1", pos="-18,173.0!"]
+  2127 [color=red, label="2127:1", pos="-17,173.0!"]
+  2130 [color=red, label="2130:1", pos="-16,173.0!"]
+  2133 [color=red, label="2133:1", pos="-15,173.0!"]
+  2136 [color=red, label="2136:1", pos="-14,173.0!"]
+  2139 [color=red, label="2139:1", pos="-13,173.0!"]
+  2142 [color=red, label="2142:1", pos="-12,173.0!"]
+  2145 [color=red, label="2145:1", pos="-11,173.0!"]
+  2148 [color=red, label="2148:1", pos="-10,173.0!"]
+  2151 [color=red, label="2151:1", pos="-9,173.0!"]
+  2154 [color=red, label="2154:1", pos="-8,173.0!"]
+  2157 [color=red, label="2157:1", pos="-7,173.0!"]
+  2160 [color=red, label="2160:1", pos="-6,173.0!"]
+  2163 [color=red, label="2163:1", pos="-5,173.0!"]
+  2166 [color=red, label="2166:1", pos="-4,173.0!"]
+  2169 [color=red, label="2169:1", pos="-3,173.0!"]
+  2172 [color=red, label="2172:1", pos="-2,173.0!"]
+  2175 [color=green, label="2175:1", pos="-12.5,174.5!"]
+  2176 [color=red, label="2176:1", pos="-1,174.5!"]
+  2177 [color=green, label="2177", pos="36,175.5!"]
+  2178 [color=red, label="2178", pos="42,175.5!"]
+  2179 [color=red, label="2179:1", pos="27,176.5!"]
+  2180 [color=red, label="2180:1", pos="20,177.5!"]
+  2181 [color=red, label="2181", pos="1,178.5!"]
+  2182 [color=green, label="2182", pos="40,178.5!"]
+  2183 [color=red, label="2183", pos="7,179.5!"]
+  2184 [color=green, label="2184", pos="8,179.5!"]
+  2185 [color=green, label="2185", pos="3,180.5!"]
+  2186 [color=green, label="2186", pos="4,180.5!"]
+  2187 [color=green, label="2187", pos="5,180.5!"]
+  2188 [color=green, label="2188", pos="7,180.5!"]
+  2189 [color=green, label="2189", pos="29,180.5!"]
+  2190 [color=green, label="2190", pos="37,180.5!"]
+  2191 [color=green, label="2191", pos="41,180.5!"]
+  2192 [color=green, label="2192", pos="42,180.5!"]
+  2193 [color=red, label="2193", pos="46,180.5!"]
+  2194 [color=green, label="2194:1", pos="-0.5,182.5!"]
+  2197 [color=red, label="2197:1", pos="-9,182.5!"]
+  2200 [color=red, label="2200:1", pos="-8,182.5!"]
+  2203 [color=red, label="2203:1", pos="-7,182.5!"]
+  2206 [color=red, label="2206:1", pos="-6,182.5!"]
+  2209 [color=red, label="2209:1", pos="-5,182.5!"]
+  2212 [color=red, label="2212:1", pos="-4,182.5!"]
+  2215 [color=red, label="2215:1", pos="-3,182.5!"]
+  2218 [color=red, label="2218:1", pos="-2,182.5!"]
+  2221 [color=green, label="2221:1", pos="-4.5,184.0!"]
+  2222 [color=red, label="2222:1", pos="-1,184.0!"]
+  2223 [color=red, label="2223", pos="40,185.0!"]
+  2224 [color=green, label="2224", pos="42,185.0!"]
+  2225 [color=red, label="2225", pos="7,186.0!"]
+  2226 [color=green, label="2226", pos="38,186.0!"]
+  2227 [color=red, label="2227:1", pos="21,187.0!"]
+  2228 [color=red, label="2228", pos="8,188.0!"]
+  2229 [color=green, label="2229", pos="25,188.0!"]
+  2241 [color=red, label="2241", pos="11,189.0!"]
+  2256 [color=green, label="2256", pos="25,189.0!"]
+  2257 [color=green, label="2257", pos="0,191.0!"]
+  2258 [color=green, label="2258", pos="1,191.0!"]
+  2259 [color=green, label="2259", pos="2,191.0!"]
+  2260 [color=green, label="2260", pos="3,191.0!"]
+  2261 [color=green, label="2261", pos="4,191.0!"]
+  2262 [color=green, label="2262", pos="5,191.0!"]
+  2263 [color=green, label="2263", pos="6,191.0!"]
+  2264 [color=green, label="2264", pos="7,191.0!"]
+  2265 [color=green, label="2265", pos="8,191.0!"]
+  2266 [color=green, label="2266", pos="9,191.0!"]
+  2267 [color=green, label="2267", pos="10,191.0!"]
+  2268 [color=green, label="2268", pos="11,191.0!"]
+  2269 [color=green, label="2269", pos="12,191.0!"]
+  2270 [color=green, label="2270", pos="13,191.0!"]
+  2271 [color=green, label="2271", pos="14,191.0!"]
+  2272 [color=green, label="2272", pos="15,191.0!"]
+  2273 [color=green, label="2273", pos="16,191.0!"]
+  2274 [color=green, label="2274", pos="17,191.0!"]
+  2275 [color=green, label="2275", pos="18,191.0!"]
+  2276 [color=red, label="2276", pos="19,190.0!"]
+  2277 [color=green, label="2277", pos="19,191.0!"]
+  2278 [color=green, label="2278", pos="20,191.0!"]
+  2279 [color=green, label="2279", pos="21,191.0!"]
+  2280 [color=green, label="2280", pos="22,191.0!"]
+  2281 [color=green, label="2281", pos="23,191.0!"]
+  2282 [color=green, label="2282", pos="24,191.0!"]
+  2283 [color=green, label="2283", pos="25,191.0!"]
+  2284 [color=green, label="2284", pos="26,191.0!"]
+  2285 [color=green, label="2285", pos="27,191.0!"]
+  2286 [color=green, label="2286", pos="28,190.0!"]
+  2287 [color=green, label="2287", pos="28,191.0!"]
+  2288 [color=green, label="2288", pos="29,191.0!"]
+  2289 [color=green, label="2289", pos="30,191.0!"]
+  2290 [color=green, label="2290", pos="31,191.0!"]
+  2291 [color=green, label="2291", pos="32,191.0!"]
+  2292 [color=green, label="2292", pos="33,191.0!"]
+  2293 [color=green, label="2293", pos="34,191.0!"]
+  2294 [color=green, label="2294", pos="35,191.0!"]
+  2295 [color=green, label="2295", pos="36,191.0!"]
+  2296 [color=green, label="2296", pos="37,191.0!"]
+  2297 [color=green, label="2297", pos="38,191.0!"]
+  2298 [color=green, label="2298", pos="39,191.0!"]
+  2299 [color=green, label="2299", pos="40,191.0!"]
+  2300 [color=green, label="2300", pos="41,191.0!"]
+  2301 [color=green, label="2301", pos="42,191.0!"]
+  2302 [color=red, label="2302", pos="43,191.0!"]
+  2303 [color=red, label="2303", pos="44,191.0!"]
+  2304 [color=red, label="2304", pos="45,191.0!"]
+  2305 [color=red, label="2305", pos="46,191.0!"]
+  2306 [color=red, label="2306", pos="47,191.0!"]
+  2307 [color=red, label="2307", pos="48,191.0!"]
+  2308 [color=red, label="2308", pos="49,191.0!"]
+  2309 [color=green, label="2309:1/3", pos="-1,6!"]
+  2310 [color=green, label="2310:1/3", pos="-35,6.5!"]
+  2311 [color=green, label="2311:1/3", pos="-34,6.5!"]
+  2312 [color=green, label="2312:1/3", pos="-33,6.5!"]
+  2313 [color=green, label="2313:1/3", pos="-32,6.5!"]
+  2314 [color=green, label="2314:1/3", pos="-31,6.5!"]
+  2315 [color=green, label="2315:1/3", pos="-30,6.5!"]
+  2316 [color=green, label="2316:1/3", pos="-29,6.5!"]
+  2317 [color=green, label="2317:1/3", pos="-28,6.5!"]
+  2318 [color=green, label="2318:1/3", pos="-27,6.5!"]
+  2319 [color=green, label="2319:1/3", pos="-26,6.5!"]
+  2320 [color=green, label="2320:1/3", pos="-25,6.5!"]
+  2321 [color=green, label="2321:1/3", pos="-24,6.5!"]
+  2322 [color=green, label="2322:1/3", pos="-23,6.5!"]
+  2323 [color=green, label="2323:1/3", pos="-22,6.5!"]
+  2324 [color=green, label="2324:1/3", pos="-21,6.5!"]
+  2325 [color=green, label="2325:1/3", pos="-20,6.5!"]
+  2326 [color=green, label="2326:1/3", pos="-19,6.5!"]
+  2327 [color=green, label="2327:1/3", pos="-18,6.5!"]
+  2328 [color=green, label="2328:1/3", pos="-17,6.5!"]
+  2329 [color=green, label="2329:1/3", pos="-16,6.5!"]
+  2330 [color=green, label="2330:1/3", pos="-15,6.5!"]
+  2331 [color=green, label="2331:1/3", pos="-14,6.5!"]
+  2332 [color=green, label="2332:1/3", pos="-13,6.5!"]
+  2333 [color=green, label="2333:1/3", pos="-12,6.5!"]
+  2334 [color=green, label="2334:1/3", pos="-11,6.5!"]
+  2335 [color=green, label="2335:1/3", pos="-10,6.5!"]
+  2336 [color=green, label="2336:1/3", pos="-9,6.5!"]
+  2337 [color=green, label="2337:1/3", pos="-8,6.5!"]
+  2338 [color=green, label="2338:1/3", pos="-7,6.5!"]
+  2339 [color=green, label="2339:1/3", pos="-6,6.5!"]
+  2340 [color=green, label="2340:1/3", pos="-5,6.5!"]
+  2341 [color=green, label="2341:1/3", pos="-4,6.5!"]
+  2342 [color=green, label="2342:1/3", pos="-3,6.5!"]
+  2343 [color=green, label="2343:1/3", pos="-2,6.5!"]
+  2344 [color=green, label="2344:1/3", pos="-1,14.5!"]
+  2345 [color=green, label="2345:1/3", pos="-32,15.0!"]
+  2346 [color=green, label="2346:1/3", pos="-31,15.0!"]
+  2347 [color=green, label="2347:1/3", pos="-30,15.0!"]
+  2348 [color=green, label="2348:1/3", pos="-29,15.0!"]
+  2349 [color=green, label="2349:1/3", pos="-28,15.0!"]
+  2350 [color=green, label="2350:1/3", pos="-27,15.0!"]
+  2351 [color=green, label="2351:1/3", pos="-26,15.0!"]
+  2352 [color=green, label="2352:1/3", pos="-25,15.0!"]
+  2353 [color=green, label="2353:1/3", pos="-24,15.0!"]
+  2354 [color=green, label="2354:1/3", pos="-23,15.0!"]
+  2355 [color=green, label="2355:1/3", pos="-22,15.0!"]
+  2356 [color=green, label="2356:1/3", pos="-21,15.0!"]
+  2357 [color=green, label="2357:1/3", pos="-20,15.0!"]
+  2358 [color=green, label="2358:1/3", pos="-19,15.0!"]
+  2359 [color=green, label="2359:1/3", pos="-18,15.0!"]
+  2360 [color=green, label="2360:1/3", pos="-17,15.0!"]
+  2361 [color=green, label="2361:1/3", pos="-16,15.0!"]
+  2362 [color=green, label="2362:1/3", pos="-15,15.0!"]
+  2363 [color=green, label="2363:1/3", pos="-14,15.0!"]
+  2364 [color=green, label="2364:1/3", pos="-13,15.0!"]
+  2365 [color=green, label="2365:1/3", pos="-12,15.0!"]
+  2366 [color=green, label="2366:1/3", pos="-11,15.0!"]
+  2367 [color=green, label="2367:1/3", pos="-10,15.0!"]
+  2368 [color=green, label="2368:1/3", pos="-9,15.0!"]
+  2369 [color=green, label="2369:1/3", pos="-8,15.0!"]
+  2370 [color=green, label="2370:1/3", pos="-7,15.0!"]
+  2371 [color=green, label="2371:1/3", pos="-6,15.0!"]
+  2372 [color=green, label="2372:1/3", pos="-5,15.0!"]
+  2373 [color=green, label="2373:1/3", pos="-4,15.0!"]
+  2374 [color=green, label="2374:1/3", pos="-3,15.0!"]
+  2375 [color=green, label="2375:1/3", pos="-2,15.0!"]
+  2376 [color=green, label="2376:1/3", pos="-1,35.0!"]
+  2377 [color=green, label="2377:1/3", pos="-21,35.5!"]
+  2378 [color=green, label="2378:1/3", pos="-20,35.5!"]
+  2379 [color=green, label="2379:1/3", pos="-19,35.5!"]
+  2380 [color=green, label="2380:1/3", pos="-18,35.5!"]
+  2381 [color=green, label="2381:1/3", pos="-17,35.5!"]
+  2382 [color=green, label="2382:1/3", pos="-16,35.5!"]
+  2383 [color=green, label="2383:1/3", pos="-15,35.5!"]
+  2384 [color=green, label="2384:1/3", pos="-14,35.5!"]
+  2385 [color=green, label="2385:1/3", pos="-13,35.5!"]
+  2386 [color=green, label="2386:1/3", pos="-12,35.5!"]
+  2387 [color=green, label="2387:1/3", pos="-11,35.5!"]
+  2388 [color=green, label="2388:1/3", pos="-10,35.5!"]
+  2389 [color=green, label="2389:1/3", pos="-9,35.5!"]
+  2390 [color=green, label="2390:1/3", pos="-8,35.5!"]
+  2391 [color=green, label="2391:1/3", pos="-7,35.5!"]
+  2392 [color=green, label="2392:1/3", pos="-6,35.5!"]
+  2393 [color=green, label="2393:1/3", pos="-5,35.5!"]
+  2394 [color=green, label="2394:1/3", pos="-4,35.5!"]
+  2395 [color=green, label="2395:1/3", pos="-3,35.5!"]
+  2396 [color=green, label="2396:1/3", pos="-2,35.5!"]
+  2397 [color=green, label="2397:1/3", pos="-1,42.5!"]
+  2398 [color=green, label="2398:1/3", pos="-30,43.0!"]
+  2399 [color=green, label="2399:1/3", pos="-29,43.0!"]
+  2400 [color=green, label="2400:1/3", pos="-28,43.0!"]
+  2401 [color=green, label="2401:1/3", pos="-27,43.0!"]
+  2402 [color=green, label="2402:1/3", pos="-26,43.0!"]
+  2403 [color=green, label="2403:1/3", pos="-25,43.0!"]
+  2404 [color=green, label="2404:1/3", pos="-24,43.0!"]
+  2405 [color=green, label="2405:1/3", pos="-23,43.0!"]
+  2406 [color=green, label="2406:1/3", pos="-22,43.0!"]
+  2407 [color=green, label="2407:1/3", pos="-21,43.0!"]
+  2408 [color=green, label="2408:1/3", pos="-20,43.0!"]
+  2409 [color=green, label="2409:1/3", pos="-19,43.0!"]
+  2410 [color=green, label="2410:1/3", pos="-18,43.0!"]
+  2411 [color=green, label="2411:1/3", pos="-17,43.0!"]
+  2412 [color=green, label="2412:1/3", pos="-16,43.0!"]
+  2413 [color=green, label="2413:1/3", pos="-15,43.0!"]
+  2414 [color=green, label="2414:1/3", pos="-14,43.0!"]
+  2415 [color=green, label="2415:1/3", pos="-13,43.0!"]
+  2416 [color=green, label="2416:1/3", pos="-12,43.0!"]
+  2417 [color=green, label="2417:1/3", pos="-11,43.0!"]
+  2418 [color=green, label="2418:1/3", pos="-10,43.0!"]
+  2419 [color=green, label="2419:1/3", pos="-9,43.0!"]
+  2420 [color=green, label="2420:1/3", pos="-8,43.0!"]
+  2421 [color=green, label="2421:1/3", pos="-7,43.0!"]
+  2422 [color=green, label="2422:1/3", pos="-6,43.0!"]
+  2423 [color=green, label="2423:1/3", pos="-5,43.0!"]
+  2424 [color=green, label="2424:1/3", pos="-4,43.0!"]
+  2425 [color=green, label="2425:1/3", pos="-3,43.0!"]
+  2426 [color=green, label="2426:1/3", pos="-2,43.0!"]
+  2427 [color=green, label="2427:1/3", pos="-1,48.0!"]
+  2428 [color=green, label="2428:1/3", pos="-30,48.5!"]
+  2429 [color=green, label="2429:1/3", pos="-29,48.5!"]
+  2430 [color=green, label="2430:1/3", pos="-28,48.5!"]
+  2431 [color=green, label="2431:1/3", pos="-27,48.5!"]
+  2432 [color=green, label="2432:1/3", pos="-26,48.5!"]
+  2433 [color=green, label="2433:1/3", pos="-25,48.5!"]
+  2434 [color=green, label="2434:1/3", pos="-24,48.5!"]
+  2435 [color=green, label="2435:1/3", pos="-23,48.5!"]
+  2436 [color=green, label="2436:1/3", pos="-22,48.5!"]
+  2437 [color=green, label="2437:1/3", pos="-21,48.5!"]
+  2438 [color=green, label="2438:1/3", pos="-20,48.5!"]
+  2439 [color=green, label="2439:1/3", pos="-19,48.5!"]
+  2440 [color=green, label="2440:1/3", pos="-18,48.5!"]
+  2441 [color=green, label="2441:1/3", pos="-17,48.5!"]
+  2442 [color=green, label="2442:1/3", pos="-16,48.5!"]
+  2443 [color=green, label="2443:1/3", pos="-15,48.5!"]
+  2444 [color=green, label="2444:1/3", pos="-14,48.5!"]
+  2445 [color=green, label="2445:1/3", pos="-13,48.5!"]
+  2446 [color=green, label="2446:1/3", pos="-12,48.5!"]
+  2447 [color=green, label="2447:1/3", pos="-11,48.5!"]
+  2448 [color=green, label="2448:1/3", pos="-10,48.5!"]
+  2449 [color=green, label="2449:1/3", pos="-9,48.5!"]
+  2450 [color=green, label="2450:1/3", pos="-8,48.5!"]
+  2451 [color=green, label="2451:1/3", pos="-7,48.5!"]
+  2452 [color=green, label="2452:1/3", pos="-6,48.5!"]
+  2453 [color=green, label="2453:1/3", pos="-5,48.5!"]
+  2454 [color=green, label="2454:1/3", pos="-4,48.5!"]
+  2455 [color=green, label="2455:1/3", pos="-3,48.5!"]
+  2456 [color=green, label="2456:1/3", pos="-2,48.5!"]
+  2457 [color=green, label="2457:1/3", pos="-1,58.5!"]
+  2458 [color=green, label="2458:1/3", pos="-32,59.0!"]
+  2459 [color=green, label="2459:1/3", pos="-31,59.0!"]
+  2460 [color=green, label="2460:1/3", pos="-30,59.0!"]
+  2461 [color=green, label="2461:1/3", pos="-29,59.0!"]
+  2462 [color=green, label="2462:1/3", pos="-28,59.0!"]
+  2463 [color=green, label="2463:1/3", pos="-27,59.0!"]
+  2464 [color=green, label="2464:1/3", pos="-26,59.0!"]
+  2465 [color=green, label="2465:1/3", pos="-25,59.0!"]
+  2466 [color=green, label="2466:1/3", pos="-24,59.0!"]
+  2467 [color=green, label="2467:1/3", pos="-23,59.0!"]
+  2468 [color=green, label="2468:1/3", pos="-22,59.0!"]
+  2469 [color=green, label="2469:1/3", pos="-21,59.0!"]
+  2470 [color=green, label="2470:1/3", pos="-20,59.0!"]
+  2471 [color=green, label="2471:1/3", pos="-19,59.0!"]
+  2472 [color=green, label="2472:1/3", pos="-18,59.0!"]
+  2473 [color=green, label="2473:1/3", pos="-17,59.0!"]
+  2474 [color=green, label="2474:1/3", pos="-16,59.0!"]
+  2475 [color=green, label="2475:1/3", pos="-15,59.0!"]
+  2476 [color=green, label="2476:1/3", pos="-14,59.0!"]
+  2477 [color=green, label="2477:1/3", pos="-13,59.0!"]
+  2478 [color=green, label="2478:1/3", pos="-12,59.0!"]
+  2479 [color=green, label="2479:1/3", pos="-11,59.0!"]
+  2480 [color=green, label="2480:1/3", pos="-10,59.0!"]
+  2481 [color=green, label="2481:1/3", pos="-9,59.0!"]
+  2482 [color=green, label="2482:1/3", pos="-8,59.0!"]
+  2483 [color=green, label="2483:1/3", pos="-7,59.0!"]
+  2484 [color=green, label="2484:1/3", pos="-6,59.0!"]
+  2485 [color=green, label="2485:1/3", pos="-5,59.0!"]
+  2486 [color=green, label="2486:1/3", pos="-4,59.0!"]
+  2487 [color=green, label="2487:1/3", pos="-3,59.0!"]
+  2488 [color=green, label="2488:1/3", pos="-2,59.0!"]
+  2489 [color=green, label="2489:1/3", pos="-1,67.0!"]
+  2490 [color=green, label="2490:1/3", pos="-23,67.5!"]
+  2491 [color=green, label="2491:1/3", pos="-22,67.5!"]
+  2492 [color=green, label="2492:1/3", pos="-21,67.5!"]
+  2493 [color=green, label="2493:1/3", pos="-20,67.5!"]
+  2494 [color=green, label="2494:1/3", pos="-19,67.5!"]
+  2495 [color=green, label="2495:1/3", pos="-18,67.5!"]
+  2496 [color=green, label="2496:1/3", pos="-17,67.5!"]
+  2497 [color=green, label="2497:1/3", pos="-16,67.5!"]
+  2498 [color=green, label="2498:1/3", pos="-15,67.5!"]
+  2499 [color=green, label="2499:1/3", pos="-14,67.5!"]
+  2500 [color=green, label="2500:1/3", pos="-13,67.5!"]
+  2501 [color=green, label="2501:1/3", pos="-12,67.5!"]
+  2502 [color=green, label="2502:1/3", pos="-11,67.5!"]
+  2503 [color=green, label="2503:1/3", pos="-10,67.5!"]
+  2504 [color=green, label="2504:1/3", pos="-9,67.5!"]
+  2505 [color=green, label="2505:1/3", pos="-8,67.5!"]
+  2506 [color=green, label="2506:1/3", pos="-7,67.5!"]
+  2507 [color=green, label="2507:1/3", pos="-6,67.5!"]
+  2508 [color=green, label="2508:1/3", pos="-5,67.5!"]
+  2509 [color=green, label="2509:1/3", pos="-4,67.5!"]
+  2510 [color=green, label="2510:1/3", pos="-3,67.5!"]
+  2511 [color=green, label="2511:1/3", pos="-2,67.5!"]
+  2512 [color=green, label="2512:1/3", pos="-1,73.5!"]
+  2513 [color=green, label="2513:1/3", pos="-19,74.0!"]
+  2514 [color=green, label="2514:1/3", pos="-18,74.0!"]
+  2515 [color=green, label="2515:1/3", pos="-17,74.0!"]
+  2516 [color=green, label="2516:1/3", pos="-16,74.0!"]
+  2517 [color=green, label="2517:1/3", pos="-15,74.0!"]
+  2518 [color=green, label="2518:1/3", pos="-14,74.0!"]
+  2519 [color=green, label="2519:1/3", pos="-13,74.0!"]
+  2520 [color=green, label="2520:1/3", pos="-12,74.0!"]
+  2521 [color=green, label="2521:1/3", pos="-11,74.0!"]
+  2522 [color=green, label="2522:1/3", pos="-10,74.0!"]
+  2523 [color=green, label="2523:1/3", pos="-9,74.0!"]
+  2524 [color=green, label="2524:1/3", pos="-8,74.0!"]
+  2525 [color=green, label="2525:1/3", pos="-7,74.0!"]
+  2526 [color=green, label="2526:1/3", pos="-6,74.0!"]
+  2527 [color=green, label="2527:1/3", pos="-5,74.0!"]
+  2528 [color=green, label="2528:1/3", pos="-4,74.0!"]
+  2529 [color=green, label="2529:1/3", pos="-3,74.0!"]
+  2530 [color=green, label="2530:1/3", pos="-2,74.0!"]
+  2531 [color=green, label="2531:1/3", pos="-1,82.0!"]
+  2532 [color=green, label="2532:1/3", pos="-37,82.5!"]
+  2533 [color=green, label="2533:1/3", pos="-36,82.5!"]
+  2534 [color=green, label="2534:1/3", pos="-35,82.5!"]
+  2535 [color=green, label="2535:1/3", pos="-34,82.5!"]
+  2536 [color=green, label="2536:1/3", pos="-33,82.5!"]
+  2537 [color=green, label="2537:1/3", pos="-32,82.5!"]
+  2538 [color=green, label="2538:1/3", pos="-31,82.5!"]
+  2539 [color=green, label="2539:1/3", pos="-30,82.5!"]
+  2540 [color=green, label="2540:1/3", pos="-29,82.5!"]
+  2541 [color=green, label="2541:1/3", pos="-28,82.5!"]
+  2542 [color=green, label="2542:1/3", pos="-27,82.5!"]
+  2543 [color=green, label="2543:1/3", pos="-26,82.5!"]
+  2544 [color=green, label="2544:1/3", pos="-25,82.5!"]
+  2545 [color=green, label="2545:1/3", pos="-24,82.5!"]
+  2546 [color=green, label="2546:1/3", pos="-23,82.5!"]
+  2547 [color=green, label="2547:1/3", pos="-22,82.5!"]
+  2548 [color=green, label="2548:1/3", pos="-21,82.5!"]
+  2549 [color=green, label="2549:1/3", pos="-20,82.5!"]
+  2550 [color=green, label="2550:1/3", pos="-19,82.5!"]
+  2551 [color=green, label="2551:1/3", pos="-18,82.5!"]
+  2552 [color=green, label="2552:1/3", pos="-17,82.5!"]
+  2553 [color=green, label="2553:1/3", pos="-16,82.5!"]
+  2554 [color=green, label="2554:1/3", pos="-15,82.5!"]
+  2555 [color=green, label="2555:1/3", pos="-14,82.5!"]
+  2556 [color=green, label="2556:1/3", pos="-13,82.5!"]
+  2557 [color=green, label="2557:1/3", pos="-12,82.5!"]
+  2558 [color=green, label="2558:1/3", pos="-11,82.5!"]
+  2559 [color=green, label="2559:1/3", pos="-10,82.5!"]
+  2560 [color=green, label="2560:1/3", pos="-9,82.5!"]
+  2561 [color=green, label="2561:1/3", pos="-8,82.5!"]
+  2562 [color=green, label="2562:1/3", pos="-7,82.5!"]
+  2563 [color=green, label="2563:1/3", pos="-6,82.5!"]
+  2564 [color=green, label="2564:1/3", pos="-5,82.5!"]
+  2565 [color=green, label="2565:1/3", pos="-4,82.5!"]
+  2566 [color=green, label="2566:1/3", pos="-3,82.5!"]
+  2567 [color=green, label="2567:1/3", pos="-2,82.5!"]
+  2568 [color=green, label="2568:1/3", pos="-1,89.5!"]
+  2569 [color=green, label="2569:1/3", pos="-6,90.0!"]
+  2570 [color=green, label="2570:1/3", pos="-5,90.0!"]
+  2571 [color=green, label="2571:1/3", pos="-4,90.0!"]
+  2572 [color=green, label="2572:1/3", pos="-3,90.0!"]
+  2573 [color=green, label="2573:1/3", pos="-2,90.0!"]
+  2574 [color=green, label="2574:1/3", pos="-1,102.0!"]
+  2575 [color=green, label="2575:1/3", pos="-39,102.5!"]
+  2576 [color=green, label="2576:1/3", pos="-38,102.5!"]
+  2577 [color=green, label="2577:1/3", pos="-37,102.5!"]
+  2578 [color=green, label="2578:1/3", pos="-36,102.5!"]
+  2579 [color=green, label="2579:1/3", pos="-35,102.5!"]
+  2580 [color=green, label="2580:1/3", pos="-34,102.5!"]
+  2581 [color=green, label="2581:1/3", pos="-33,102.5!"]
+  2582 [color=green, label="2582:1/3", pos="-32,102.5!"]
+  2583 [color=green, label="2583:1/3", pos="-31,102.5!"]
+  2584 [color=green, label="2584:1/3", pos="-30,102.5!"]
+  2585 [color=green, label="2585:1/3", pos="-29,102.5!"]
+  2586 [color=green, label="2586:1/3", pos="-28,102.5!"]
+  2587 [color=green, label="2587:1/3", pos="-27,102.5!"]
+  2588 [color=green, label="2588:1/3", pos="-26,102.5!"]
+  2589 [color=green, label="2589:1/3", pos="-25,102.5!"]
+  2590 [color=green, label="2590:1/3", pos="-24,102.5!"]
+  2591 [color=green, label="2591:1/3", pos="-23,102.5!"]
+  2592 [color=green, label="2592:1/3", pos="-22,102.5!"]
+  2593 [color=green, label="2593:1/3", pos="-21,102.5!"]
+  2594 [color=green, label="2594:1/3", pos="-20,102.5!"]
+  2595 [color=green, label="2595:1/3", pos="-19,102.5!"]
+  2596 [color=green, label="2596:1/3", pos="-18,102.5!"]
+  2597 [color=green, label="2597:1/3", pos="-17,102.5!"]
+  2598 [color=green, label="2598:1/3", pos="-16,102.5!"]
+  2599 [color=green, label="2599:1/3", pos="-15,102.5!"]
+  2600 [color=green, label="2600:1/3", pos="-14,102.5!"]
+  2601 [color=green, label="2601:1/3", pos="-13,102.5!"]
+  2602 [color=green, label="2602:1/3", pos="-12,102.5!"]
+  2603 [color=green, label="2603:1/3", pos="-11,102.5!"]
+  2604 [color=green, label="2604:1/3", pos="-10,102.5!"]
+  2605 [color=green, label="2605:1/3", pos="-9,102.5!"]
+  2606 [color=green, label="2606:1/3", pos="-8,102.5!"]
+  2607 [color=green, label="2607:1/3", pos="-7,102.5!"]
+  2608 [color=green, label="2608:1/3", pos="-6,102.5!"]
+  2609 [color=green, label="2609:1/3", pos="-5,102.5!"]
+  2610 [color=green, label="2610:1/3", pos="-4,102.5!"]
+  2611 [color=green, label="2611:1/3", pos="-3,102.5!"]
+  2612 [color=green, label="2612:1/3", pos="-2,102.5!"]
+  2613 [color=green, label="2613:1/3", pos="-1,112.5!"]
+  2614 [color=green, label="2614:1/3", pos="-35,113.0!"]
+  2615 [color=green, label="2615:1/3", pos="-34,113.0!"]
+  2616 [color=green, label="2616:1/3", pos="-33,113.0!"]
+  2617 [color=green, label="2617:1/3", pos="-32,113.0!"]
+  2618 [color=green, label="2618:1/3", pos="-31,113.0!"]
+  2619 [color=green, label="2619:1/3", pos="-30,113.0!"]
+  2620 [color=green, label="2620:1/3", pos="-29,113.0!"]
+  2621 [color=green, label="2621:1/3", pos="-28,113.0!"]
+  2622 [color=green, label="2622:1/3", pos="-27,113.0!"]
+  2623 [color=green, label="2623:1/3", pos="-26,113.0!"]
+  2624 [color=green, label="2624:1/3", pos="-25,113.0!"]
+  2625 [color=green, label="2625:1/3", pos="-24,113.0!"]
+  2626 [color=green, label="2626:1/3", pos="-23,113.0!"]
+  2627 [color=green, label="2627:1/3", pos="-22,113.0!"]
+  2628 [color=green, label="2628:1/3", pos="-21,113.0!"]
+  2629 [color=green, label="2629:1/3", pos="-20,113.0!"]
+  2630 [color=green, label="2630:1/3", pos="-19,113.0!"]
+  2631 [color=green, label="2631:1/3", pos="-18,113.0!"]
+  2632 [color=green, label="2632:1/3", pos="-17,113.0!"]
+  2633 [color=green, label="2633:1/3", pos="-16,113.0!"]
+  2634 [color=green, label="2634:1/3", pos="-15,113.0!"]
+  2635 [color=green, label="2635:1/3", pos="-14,113.0!"]
+  2636 [color=green, label="2636:1/3", pos="-13,113.0!"]
+  2637 [color=green, label="2637:1/3", pos="-12,113.0!"]
+  2638 [color=green, label="2638:1/3", pos="-11,113.0!"]
+  2639 [color=green, label="2639:1/3", pos="-10,113.0!"]
+  2640 [color=green, label="2640:1/3", pos="-9,113.0!"]
+  2641 [color=green, label="2641:1/3", pos="-8,113.0!"]
+  2642 [color=green, label="2642:1/3", pos="-7,113.0!"]
+  2643 [color=green, label="2643:1/3", pos="-6,113.0!"]
+  2644 [color=green, label="2644:1/3", pos="-5,113.0!"]
+  2645 [color=green, label="2645:1/3", pos="-4,113.0!"]
+  2646 [color=green, label="2646:1/3", pos="-3,113.0!"]
+  2647 [color=green, label="2647:1/3", pos="-2,113.0!"]
+  2648 [color=green, label="2648:1/3", pos="-1,123.0!"]
+  2649 [color=green, label="2649:1/3", pos="-7,123.5!"]
+  2650 [color=green, label="2650:1/3", pos="-6,123.5!"]
+  2651 [color=green, label="2651:1/3", pos="-5,123.5!"]
+  2652 [color=green, label="2652:1/3", pos="-4,123.5!"]
+  2653 [color=green, label="2653:1/3", pos="-3,123.5!"]
+  2654 [color=green, label="2654:1/3", pos="-2,123.5!"]
+  2655 [color=green, label="2655:1/3", pos="-1,133.5!"]
+  2656 [color=green, label="2656:1/3", pos="-30,134.0!"]
+  2657 [color=green, label="2657:1/3", pos="-29,134.0!"]
+  2658 [color=green, label="2658:1/3", pos="-28,134.0!"]
+  2659 [color=green, label="2659:1/3", pos="-27,134.0!"]
+  2660 [color=green, label="2660:1/3", pos="-26,134.0!"]
+  2661 [color=green, label="2661:1/3", pos="-25,134.0!"]
+  2662 [color=green, label="2662:1/3", pos="-24,134.0!"]
+  2663 [color=green, label="2663:1/3", pos="-23,134.0!"]
+  2664 [color=green, label="2664:1/3", pos="-22,134.0!"]
+  2665 [color=green, label="2665:1/3", pos="-21,134.0!"]
+  2666 [color=green, label="2666:1/3", pos="-20,134.0!"]
+  2667 [color=green, label="2667:1/3", pos="-19,134.0!"]
+  2668 [color=green, label="2668:1/3", pos="-18,134.0!"]
+  2669 [color=green, label="2669:1/3", pos="-17,134.0!"]
+  2670 [color=green, label="2670:1/3", pos="-16,134.0!"]
+  2671 [color=green, label="2671:1/3", pos="-15,134.0!"]
+  2672 [color=green, label="2672:1/3", pos="-14,134.0!"]
+  2673 [color=green, label="2673:1/3", pos="-13,134.0!"]
+  2674 [color=green, label="2674:1/3", pos="-12,134.0!"]
+  2675 [color=green, label="2675:1/3", pos="-11,134.0!"]
+  2676 [color=green, label="2676:1/3", pos="-10,134.0!"]
+  2677 [color=green, label="2677:1/3", pos="-9,134.0!"]
+  2678 [color=green, label="2678:1/3", pos="-8,134.0!"]
+  2679 [color=green, label="2679:1/3", pos="-7,134.0!"]
+  2680 [color=green, label="2680:1/3", pos="-6,134.0!"]
+  2681 [color=green, label="2681:1/3", pos="-5,134.0!"]
+  2682 [color=green, label="2682:1/3", pos="-4,134.0!"]
+  2683 [color=green, label="2683:1/3", pos="-3,134.0!"]
+  2684 [color=green, label="2684:1/3", pos="-2,134.0!"]
+  2685 [color=green, label="2685:1/3", pos="-1,141.0!"]
+  2686 [color=green, label="2686:1/3", pos="-10,141.5!"]
+  2687 [color=green, label="2687:1/3", pos="-9,141.5!"]
+  2688 [color=green, label="2688:1/3", pos="-8,141.5!"]
+  2689 [color=green, label="2689:1/3", pos="-7,141.5!"]
+  2690 [color=green, label="2690:1/3", pos="-6,141.5!"]
+  2691 [color=green, label="2691:1/3", pos="-5,141.5!"]
+  2692 [color=green, label="2692:1/3", pos="-4,141.5!"]
+  2693 [color=green, label="2693:1/3", pos="-3,141.5!"]
+  2694 [color=green, label="2694:1/3", pos="-2,141.5!"]
+  2695 [color=green, label="2695:1/3", pos="-1,145.5!"]
+  2696 [color=green, label="2696:1/3", pos="-9,146.0!"]
+  2697 [color=green, label="2697:1/3", pos="-8,146.0!"]
+  2698 [color=green, label="2698:1/3", pos="-7,146.0!"]
+  2699 [color=green, label="2699:1/3", pos="-6,146.0!"]
+  2700 [color=green, label="2700:1/3", pos="-5,146.0!"]
+  2701 [color=green, label="2701:1/3", pos="-4,146.0!"]
+  2702 [color=green, label="2702:1/3", pos="-3,146.0!"]
+  2703 [color=green, label="2703:1/3", pos="-2,146.0!"]
+  2704 [color=green, label="2704:1/3", pos="-1,161.0!"]
+  2705 [color=green, label="2705:1/3", pos="-27,161.5!"]
+  2706 [color=green, label="2706:1/3", pos="-26,161.5!"]
+  2707 [color=green, label="2707:1/3", pos="-25,161.5!"]
+  2708 [color=green, label="2708:1/3", pos="-24,161.5!"]
+  2709 [color=green, label="2709:1/3", pos="-23,161.5!"]
+  2710 [color=green, label="2710:1/3", pos="-22,161.5!"]
+  2711 [color=green, label="2711:1/3", pos="-21,161.5!"]
+  2712 [color=green, label="2712:1/3", pos="-20,161.5!"]
+  2713 [color=green, label="2713:1/3", pos="-19,161.5!"]
+  2714 [color=green, label="2714:1/3", pos="-18,161.5!"]
+  2715 [color=green, label="2715:1/3", pos="-17,161.5!"]
+  2716 [color=green, label="2716:1/3", pos="-16,161.5!"]
+  2717 [color=green, label="2717:1/3", pos="-15,161.5!"]
+  2718 [color=green, label="2718:1/3", pos="-14,161.5!"]
+  2719 [color=green, label="2719:1/3", pos="-13,161.5!"]
+  2720 [color=green, label="2720:1/3", pos="-12,161.5!"]
+  2721 [color=green, label="2721:1/3", pos="-11,161.5!"]
+  2722 [color=green, label="2722:1/3", pos="-10,161.5!"]
+  2723 [color=green, label="2723:1/3", pos="-9,161.5!"]
+  2724 [color=green, label="2724:1/3", pos="-8,161.5!"]
+  2725 [color=green, label="2725:1/3", pos="-7,161.5!"]
+  2726 [color=green, label="2726:1/3", pos="-6,161.5!"]
+  2727 [color=green, label="2727:1/3", pos="-5,161.5!"]
+  2728 [color=green, label="2728:1/3", pos="-4,161.5!"]
+  2729 [color=green, label="2729:1/3", pos="-3,161.5!"]
+  2730 [color=green, label="2730:1/3", pos="-2,161.5!"]
+  2731 [color=green, label="2731:1/3", pos="-1,168.5!"]
+  2732 [color=green, label="2732:1/3", pos="-35,169.0!"]
+  2733 [color=green, label="2733:1/3", pos="-34,169.0!"]
+  2734 [color=green, label="2734:1/3", pos="-33,169.0!"]
+  2735 [color=green, label="2735:1/3", pos="-32,169.0!"]
+  2736 [color=green, label="2736:1/3", pos="-31,169.0!"]
+  2737 [color=green, label="2737:1/3", pos="-30,169.0!"]
+  2738 [color=green, label="2738:1/3", pos="-29,169.0!"]
+  2739 [color=green, label="2739:1/3", pos="-28,169.0!"]
+  2740 [color=green, label="2740:1/3", pos="-27,169.0!"]
+  2741 [color=green, label="2741:1/3", pos="-26,169.0!"]
+  2742 [color=green, label="2742:1/3", pos="-25,169.0!"]
+  2743 [color=green, label="2743:1/3", pos="-24,169.0!"]
+  2744 [color=green, label="2744:1/3", pos="-23,169.0!"]
+  2745 [color=green, label="2745:1/3", pos="-22,169.0!"]
+  2746 [color=green, label="2746:1/3", pos="-21,169.0!"]
+  2747 [color=green, label="2747:1/3", pos="-20,169.0!"]
+  2748 [color=green, label="2748:1/3", pos="-19,169.0!"]
+  2749 [color=green, label="2749:1/3", pos="-18,169.0!"]
+  2750 [color=green, label="2750:1/3", pos="-17,169.0!"]
+  2751 [color=green, label="2751:1/3", pos="-16,169.0!"]
+  2752 [color=green, label="2752:1/3", pos="-15,169.0!"]
+  2753 [color=green, label="2753:1/3", pos="-14,169.0!"]
+  2754 [color=green, label="2754:1/3", pos="-13,169.0!"]
+  2755 [color=green, label="2755:1/3", pos="-12,169.0!"]
+  2756 [color=green, label="2756:1/3", pos="-11,169.0!"]
+  2757 [color=green, label="2757:1/3", pos="-10,169.0!"]
+  2758 [color=green, label="2758:1/3", pos="-9,169.0!"]
+  2759 [color=green, label="2759:1/3", pos="-8,169.0!"]
+  2760 [color=green, label="2760:1/3", pos="-7,169.0!"]
+  2761 [color=green, label="2761:1/3", pos="-6,169.0!"]
+  2762 [color=green, label="2762:1/3", pos="-5,169.0!"]
+  2763 [color=green, label="2763:1/3", pos="-4,169.0!"]
+  2764 [color=green, label="2764:1/3", pos="-3,169.0!"]
+  2765 [color=green, label="2765:1/3", pos="-2,169.0!"]
+  2766 [color=green, label="2766:1/3", pos="-1,173.0!"]
+  2767 [color=green, label="2767:1/3", pos="-25,173.5!"]
+  2768 [color=green, label="2768:1/3", pos="-24,173.5!"]
+  2769 [color=green, label="2769:1/3", pos="-23,173.5!"]
+  2770 [color=green, label="2770:1/3", pos="-22,173.5!"]
+  2771 [color=green, label="2771:1/3", pos="-21,173.5!"]
+  2772 [color=green, label="2772:1/3", pos="-20,173.5!"]
+  2773 [color=green, label="2773:1/3", pos="-19,173.5!"]
+  2774 [color=green, label="2774:1/3", pos="-18,173.5!"]
+  2775 [color=green, label="2775:1/3", pos="-17,173.5!"]
+  2776 [color=green, label="2776:1/3", pos="-16,173.5!"]
+  2777 [color=green, label="2777:1/3", pos="-15,173.5!"]
+  2778 [color=green, label="2778:1/3", pos="-14,173.5!"]
+  2779 [color=green, label="2779:1/3", pos="-13,173.5!"]
+  2780 [color=green, label="2780:1/3", pos="-12,173.5!"]
+  2781 [color=green, label="2781:1/3", pos="-11,173.5!"]
+  2782 [color=green, label="2782:1/3", pos="-10,173.5!"]
+  2783 [color=green, label="2783:1/3", pos="-9,173.5!"]
+  2784 [color=green, label="2784:1/3", pos="-8,173.5!"]
+  2785 [color=green, label="2785:1/3", pos="-7,173.5!"]
+  2786 [color=green, label="2786:1/3", pos="-6,173.5!"]
+  2787 [color=green, label="2787:1/3", pos="-5,173.5!"]
+  2788 [color=green, label="2788:1/3", pos="-4,173.5!"]
+  2789 [color=green, label="2789:1/3", pos="-3,173.5!"]
+  2790 [color=green, label="2790:1/3", pos="-2,173.5!"]
+  2791 [color=green, label="2791:1/3", pos="-1,182.5!"]
+  2792 [color=green, label="2792:1/3", pos="-9,183.0!"]
+  2793 [color=green, label="2793:1/3", pos="-8,183.0!"]
+  2794 [color=green, label="2794:1/3", pos="-7,183.0!"]
+  2795 [color=green, label="2795:1/3", pos="-6,183.0!"]
+  2796 [color=green, label="2796:1/3", pos="-5,183.0!"]
+  2797 [color=green, label="2797:1/3", pos="-4,183.0!"]
+  2798 [color=green, label="2798:1/3", pos="-3,183.0!"]
+  2799 [color=green, label="2799:1/3", pos="-2,183.0!"]
+
+  0 -- 55
+  1 -- 56
+  2 -- 57
+  3 -- 58
+  4 -- 59
+  5 -- 206
+  6 -- 60
+  7 -- 61
+  8 -- 62
+  9 -- 209
+  10 -- 52
+  11 -- 64
+  12 -- 65
+  13 -- 66
+  14 -- 67
+  15 -- 68
+  16 -- 216
+  17 -- 69
+  18 -- 70
+  19 -- 217
+  20 -- 71
+  21 -- 346
+  22 -- 53
+  23 -- 73
+  24 -- 50
+  25 -- 221
+  26 -- 75
+  27 -- 76
+  28 -- 77
+  29 -- 225
+  30 -- 78
+  31 -- 79
+  32 -- 80
+  33 -- 81
+  34 -- 82
+  35 -- 83
+  36 -- 84
+  37 -- 85
+  38 -- 51
+  39 -- 86
+  40 -- 87
+  41 -- 88
+  42 -- 203
+  43 -- 872
+  44 -- 607
+  45 -- 383
+  46 -- 1428
+  47 -- 89
+  48 -- 743
+  49 -- 1265
+  50 -- 51
+  50 -- 74
+  51 -- 54
+  52 -- 53
+  52 -- 63
+  53 -- 72
+  54 -- 604
+  55 -- 93
+  55 -- 204
+  56 -- 96
+  56 -- 350
+  57 -- 99
+  57 -- 359
+  58 -- 102
+  58 -- 205
+  59 -- 105
+  59 -- 365
+  60 -- 108
+  60 -- 197
+  61 -- 111
+  61 -- 208
+  62 -- 114
+  62 -- 367
+  63 -- 117
+  63 -- 210
+  64 -- 120
+  64 -- 211
+  65 -- 123
+  65 -- 199
+  66 -- 126
+  66 -- 213
+  67 -- 129
+  67 -- 214
+  68 -- 132
+  68 -- 215
+  69 -- 135
+  69 -- 348
+  70 -- 138
+  70 -- 353
+  71 -- 141
+  71 -- 218
+  72 -- 144
+  72 -- 219
+  73 -- 147
+  73 -- 360
+  74 -- 150
+  74 -- 220
+  75 -- 153
+  75 -- 198
+  76 -- 156
+  76 -- 223
+  77 -- 159
+  77 -- 224
+  78 -- 162
+  78 -- 200
+  79 -- 165
+  79 -- 477
+  80 -- 168
+  80 -- 227
+  81 -- 171
+  81 -- 228
+  82 -- 174
+  82 -- 229
+  83 -- 177
+  83 -- 230
+  84 -- 180
+  84 -- 231
+  85 -- 183
+  85 -- 351
+  86 -- 186
+  86 -- 382
+  87 -- 189
+  87 -- 232
+  88 -- 192
+  88 -- 202
+  89 -- 90
+  89 -- 235
+  90 -- 2309
+  93 -- 2310
+  96 -- 2311
+  99 -- 2312
+  102 -- 2313
+  105 -- 2314
+  108 -- 2315
+  111 -- 2316
+  114 -- 2317
+  117 -- 2318
+  120 -- 2319
+  123 -- 2320
+  126 -- 2321
+  129 -- 2322
+  132 -- 2323
+  135 -- 2324
+  138 -- 2325
+  141 -- 2326
+  144 -- 2327
+  147 -- 2328
+  150 -- 2329
+  153 -- 2330
+  156 -- 2331
+  159 -- 2332
+  162 -- 2333
+  165 -- 2334
+  168 -- 2335
+  171 -- 2336
+  174 -- 2337
+  177 -- 2338
+  180 -- 2339
+  183 -- 2340
+  186 -- 2341
+  189 -- 2342
+  192 -- 2343
+  195 -- 196
+  195 -- 2310
+  195 -- 2311
+  195 -- 2312
+  195 -- 2313
+  195 -- 2314
+  195 -- 2315
+  195 -- 2316
+  195 -- 2317
+  195 -- 2318
+  195 -- 2319
+  195 -- 2320
+  195 -- 2321
+  195 -- 2322
+  195 -- 2323
+  195 -- 2324
+  195 -- 2325
+  195 -- 2326
+  195 -- 2327
+  195 -- 2328
+  195 -- 2329
+  195 -- 2330
+  195 -- 2331
+  195 -- 2332
+  195 -- 2333
+  195 -- 2334
+  195 -- 2335
+  195 -- 2336
+  195 -- 2337
+  195 -- 2338
+  195 -- 2339
+  195 -- 2340
+  195 -- 2341
+  195 -- 2342
+  195 -- 2343
+  196 -- 2309
+  197 -- 198
+  197 -- 207
+  198 -- 222
+  199 -- 200
+  199 -- 212
+  200 -- 201
+  201 -- 226
+  202 -- 203
+  202 -- 233
+  203 -- 234
+  204 -- 239
+  204 -- 363
+  205 -- 242
+  205 -- 335
+  206 -- 245
+  206 -- 342
+  207 -- 248
+  207 -- 366
+  208 -- 251
+  208 -- 343
+  209 -- 254
+  209 -- 585
+  210 -- 257
+  210 -- 368
+  211 -- 260
+  211 -- 369
+  212 -- 263
+  212 -- 361
+  213 -- 266
+  213 -- 344
+  214 -- 269
+  214 -- 336
+  215 -- 272
+  215 -- 466
+  216 -- 275
+  216 -- 591
+  217 -- 278
+  217 -- 349
+  218 -- 281
+  218 -- 356
+  219 -- 284
+  219 -- 347
+  220 -- 287
+  220 -- 472
+  221 -- 290
+  221 -- 358
+  222 -- 293
+  222 -- 734
+  223 -- 296
+  223 -- 341
+  224 -- 299
+  224 -- 340
+  225 -- 302
+  225 -- 354
+  226 -- 305
+  226 -- 711
+  227 -- 308
+  227 -- 600
+  228 -- 311
+  228 -- 478
+  229 -- 314
+  229 -- 380
+  230 -- 317
+  230 -- 337
+  231 -- 320
+  231 -- 381
+  232 -- 323
+  232 -- 334
+  233 -- 326
+  233 -- 352
+  234 -- 329
+  234 -- 338
+  235 -- 236
+  235 -- 483
+  236 -- 2344
+  239 -- 2345
+  242 -- 2346
+  245 -- 2347
+  248 -- 2348
+  251 -- 2349
+  254 -- 2350
+  257 -- 2351
+  260 -- 2352
+  263 -- 2353
+  266 -- 2354
+  269 -- 2355
+  272 -- 2356
+  275 -- 2357
+  278 -- 2358
+  281 -- 2359
+  284 -- 2360
+  287 -- 2361
+  290 -- 2362
+  293 -- 2363
+  296 -- 2364
+  299 -- 2365
+  302 -- 2366
+  305 -- 2367
+  308 -- 2368
+  311 -- 2369
+  314 -- 2370
+  317 -- 2371
+  320 -- 2372
+  323 -- 2373
+  326 -- 2374
+  329 -- 2375
+  332 -- 333
+  332 -- 2345
+  332 -- 2346
+  332 -- 2347
+  332 -- 2348
+  332 -- 2349
+  332 -- 2350
+  332 -- 2351
+  332 -- 2352
+  332 -- 2353
+  332 -- 2354
+  332 -- 2355
+  332 -- 2356
+  332 -- 2357
+  332 -- 2358
+  332 -- 2359
+  332 -- 2360
+  332 -- 2361
+  332 -- 2362
+  332 -- 2363
+  332 -- 2364
+  332 -- 2365
+  332 -- 2366
+  332 -- 2367
+  332 -- 2368
+  332 -- 2369
+  332 -- 2370
+  332 -- 2371
+  332 -- 2372
+  332 -- 2373
+  332 -- 2374
+  332 -- 2375
+  333 -- 2344
+  334 -- 1066
+  335 -- 336
+  335 -- 456
+  336 -- 339
+  337 -- 338
+  337 -- 479
+  338 -- 482
+  339 -- 340
+  339 -- 345
+  340 -- 449
+  341 -- 474
+  342 -- 343
+  342 -- 458
+  343 -- 576
+  344 -- 345
+  344 -- 371
+  345 -- 372
+  346 -- 347
+  346 -- 357
+  347 -- 378
+  348 -- 349
+  348 -- 373
+  349 -- 375
+  350 -- 351
+  350 -- 355
+  351 -- 362
+  352 -- 481
+  353 -- 354
+  353 -- 374
+  354 -- 379
+  355 -- 356
+  355 -- 364
+  356 -- 376
+  357 -- 358
+  357 -- 377
+  358 -- 473
+  359 -- 360
+  359 -- 450
+  360 -- 471
+  361 -- 362
+  361 -- 370
+  362 -- 603
+  363 -- 387
+  363 -- 454
+  364 -- 390
+  364 -- 455
+  365 -- 393
+  365 -- 457
+  366 -- 396
+  366 -- 459
+  367 -- 399
+  367 -- 451
+  368 -- 402
+  368 -- 461
+  369 -- 405
+  369 -- 462
+  370 -- 408
+  370 -- 463
+  371 -- 411
+  371 -- 464
+  372 -- 414
+  372 -- 452
+  373 -- 417
+  373 -- 467
+  374 -- 420
+  374 -- 727
+  375 -- 423
+  375 -- 468
+  376 -- 426
+  376 -- 469
+  377 -- 429
+  377 -- 453
+  378 -- 432
+  378 -- 470
+  379 -- 435
+  379 -- 476
+  380 -- 438
+  380 -- 738
+  381 -- 441
+  381 -- 480
+  382 -- 444
+  382 -- 703
+  383 -- 384
+  383 -- 1067
+  384 -- 2376
+  387 -- 2377
+  390 -- 2378
+  393 -- 2379
+  396 -- 2380
+  399 -- 2381
+  402 -- 2382
+  405 -- 2383
+  408 -- 2384
+  411 -- 2385
+  414 -- 2386
+  417 -- 2387
+  420 -- 2388
+  423 -- 2389
+  426 -- 2390
+  429 -- 2391
+  432 -- 2392
+  435 -- 2393
+  438 -- 2394
+  441 -- 2395
+  444 -- 2396
+  447 -- 448
+  447 -- 2377
+  447 -- 2378
+  447 -- 2379
+  447 -- 2380
+  447 -- 2381
+  447 -- 2382
+  447 -- 2383
+  447 -- 2384
+  447 -- 2385
+  447 -- 2386
+  447 -- 2387
+  447 -- 2388
+  447 -- 2389
+  447 -- 2390
+  447 -- 2391
+  447 -- 2392
+  447 -- 2393
+  447 -- 2394
+  447 -- 2395
+  447 -- 2396
+  448 -- 2376
+  449 -- 475
+  450 -- 451
+  450 -- 700
+  451 -- 460
+  452 -- 453
+  452 -- 465
+  453 -- 730
+  454 -- 487
+  454 -- 578
+  455 -- 490
+  455 -- 579
+  456 -- 493
+  456 -- 580
+  457 -- 496
+  457 -- 581
+  458 -- 499
+  458 -- 842
+  459 -- 502
+  459 -- 582
+  460 -- 505
+  460 -- 584
+  461 -- 508
+  461 -- 720
+  462 -- 511
+  462 -- 586
+  463 -- 514
+  463 -- 587
+  464 -- 517
+  464 -- 588
+  465 -- 520
+  465 -- 589
+  466 -- 523
+  466 -- 590
+  467 -- 526
+  467 -- 856
+  468 -- 529
+  468 -- 592
+  469 -- 532
+  469 -- 593
+  470 -- 535
+  470 -- 859
+  471 -- 538
+  471 -- 731
+  472 -- 541
+  472 -- 594
+  473 -- 544
+  473 -- 595
+  474 -- 547
+  474 -- 596
+  475 -- 550
+  475 -- 577
+  476 -- 553
+  476 -- 598
+  477 -- 556
+  477 -- 599
+  478 -- 559
+  478 -- 1257
+  479 -- 562
+  479 -- 601
+  480 -- 565
+  480 -- 602
+  481 -- 568
+  481 -- 605
+  482 -- 571
+  482 -- 606
+  483 -- 484
+  483 -- 965
+  484 -- 2397
+  487 -- 2398
+  490 -- 2399
+  493 -- 2400
+  496 -- 2401
+  499 -- 2402
+  502 -- 2403
+  505 -- 2404
+  508 -- 2405
+  511 -- 2406
+  514 -- 2407
+  517 -- 2408
+  520 -- 2409
+  523 -- 2410
+  526 -- 2411
+  529 -- 2412
+  532 -- 2413
+  535 -- 2414
+  538 -- 2415
+  541 -- 2416
+  544 -- 2417
+  547 -- 2418
+  550 -- 2419
+  553 -- 2420
+  556 -- 2421
+  559 -- 2422
+  562 -- 2423
+  565 -- 2424
+  568 -- 2425
+  571 -- 2426
+  574 -- 575
+  574 -- 2398
+  574 -- 2399
+  574 -- 2400
+  574 -- 2401
+  574 -- 2402
+  574 -- 2403
+  574 -- 2404
+  574 -- 2405
+  574 -- 2406
+  574 -- 2407
+  574 -- 2408
+  574 -- 2409
+  574 -- 2410
+  574 -- 2411
+  574 -- 2412
+  574 -- 2413
+  574 -- 2414
+  574 -- 2415
+  574 -- 2416
+  574 -- 2417
+  574 -- 2418
+  574 -- 2419
+  574 -- 2420
+  574 -- 2421
+  574 -- 2422
+  574 -- 2423
+  574 -- 2424
+  574 -- 2425
+  574 -- 2426
+  575 -- 2397
+  576 -- 577
+  576 -- 583
+  577 -- 597
+  578 -- 611
+  578 -- 712
+  579 -- 614
+  579 -- 713
+  580 -- 617
+  580 -- 708
+  581 -- 620
+  581 -- 715
+  582 -- 623
+  582 -- 716
+  583 -- 626
+  583 -- 717
+  584 -- 629
+  584 -- 710
+  585 -- 632
+  585 -- 719
+  586 -- 635
+  586 -- 721
+  587 -- 638
+  587 -- 701
+  588 -- 641
+  588 -- 723
+  589 -- 644
+  589 -- 724
+  590 -- 647
+  590 -- 725
+  591 -- 650
+  591 -- 707
+  592 -- 653
+  592 -- 728
+  593 -- 656
+  593 -- 729
+  594 -- 659
+  594 -- 732
+  595 -- 662
+  595 -- 702
+  596 -- 665
+  596 -- 704
+  597 -- 668
+  597 -- 848
+  598 -- 671
+  598 -- 864
+  599 -- 674
+  599 -- 709
+  600 -- 677
+  600 -- 737
+  601 -- 680
+  601 -- 705
+  602 -- 683
+  602 -- 868
+  603 -- 686
+  603 -- 739
+  604 -- 689
+  604 -- 740
+  605 -- 692
+  605 -- 1389
+  606 -- 695
+  606 -- 742
+  607 -- 608
+  607 -- 1967
+  608 -- 2427
+  611 -- 2428
+  614 -- 2429
+  617 -- 2430
+  620 -- 2431
+  623 -- 2432
+  626 -- 2433
+  629 -- 2434
+  632 -- 2435
+  635 -- 2436
+  638 -- 2437
+  641 -- 2438
+  644 -- 2439
+  647 -- 2440
+  650 -- 2441
+  653 -- 2442
+  656 -- 2443
+  659 -- 2444
+  662 -- 2445
+  665 -- 2446
+  668 -- 2447
+  671 -- 2448
+  674 -- 2449
+  677 -- 2450
+  680 -- 2451
+  683 -- 2452
+  686 -- 2453
+  689 -- 2454
+  692 -- 2455
+  695 -- 2456
+  698 -- 699
+  698 -- 2428
+  698 -- 2429
+  698 -- 2430
+  698 -- 2431
+  698 -- 2432
+  698 -- 2433
+  698 -- 2434
+  698 -- 2435
+  698 -- 2436
+  698 -- 2437
+  698 -- 2438
+  698 -- 2439
+  698 -- 2440
+  698 -- 2441
+  698 -- 2442
+  698 -- 2443
+  698 -- 2444
+  698 -- 2445
+  698 -- 2446
+  698 -- 2447
+  698 -- 2448
+  698 -- 2449
+  698 -- 2450
+  698 -- 2451
+  698 -- 2452
+  698 -- 2453
+  698 -- 2454
+  698 -- 2455
+  698 -- 2456
+  699 -- 2427
+  700 -- 701
+  700 -- 706
+  701 -- 722
+  702 -- 703
+  702 -- 733
+  703 -- 741
+  704 -- 705
+  704 -- 735
+  705 -- 847
+  706 -- 707
+  706 -- 851
+  707 -- 726
+  708 -- 709
+  708 -- 714
+  709 -- 1059
+  710 -- 711
+  710 -- 718
+  711 -- 736
+  712 -- 747
+  712 -- 1031
+  713 -- 750
+  713 -- 850
+  714 -- 753
+  714 -- 852
+  715 -- 756
+  715 -- 1033
+  716 -- 759
+  716 -- 1026
+  717 -- 762
+  717 -- 846
+  718 -- 765
+  718 -- 1037
+  719 -- 768
+  719 -- 854
+  720 -- 771
+  720 -- 949
+  721 -- 774
+  721 -- 844
+  722 -- 777
+  722 -- 946
+  723 -- 780
+  723 -- 855
+  724 -- 783
+  724 -- 951
+  725 -- 786
+  725 -- 944
+  726 -- 789
+  726 -- 953
+  727 -- 792
+  727 -- 1047
+  728 -- 795
+  728 -- 954
+  729 -- 798
+  729 -- 857
+  730 -- 801
+  730 -- 858
+  731 -- 804
+  731 -- 1052
+  732 -- 807
+  732 -- 860
+  733 -- 810
+  733 -- 861
+  734 -- 813
+  734 -- 845
+  735 -- 816
+  735 -- 862
+  736 -- 819
+  736 -- 849
+  737 -- 822
+  737 -- 865
+  738 -- 825
+  738 -- 866
+  739 -- 828
+  739 -- 869
+  740 -- 831
+  740 -- 1065
+  741 -- 834
+  741 -- 843
+  742 -- 837
+  742 -- 871
+  743 -- 744
+  743 -- 1190
+  744 -- 2457
+  747 -- 2458
+  750 -- 2459
+  753 -- 2460
+  756 -- 2461
+  759 -- 2462
+  762 -- 2463
+  765 -- 2464
+  768 -- 2465
+  771 -- 2466
+  774 -- 2467
+  777 -- 2468
+  780 -- 2469
+  783 -- 2470
+  786 -- 2471
+  789 -- 2472
+  792 -- 2473
+  795 -- 2474
+  798 -- 2475
+  801 -- 2476
+  804 -- 2477
+  807 -- 2478
+  810 -- 2479
+  813 -- 2480
+  816 -- 2481
+  819 -- 2482
+  822 -- 2483
+  825 -- 2484
+  828 -- 2485
+  831 -- 2486
+  834 -- 2487
+  837 -- 2488
+  840 -- 841
+  840 -- 2458
+  840 -- 2459
+  840 -- 2460
+  840 -- 2461
+  840 -- 2462
+  840 -- 2463
+  840 -- 2464
+  840 -- 2465
+  840 -- 2466
+  840 -- 2467
+  840 -- 2468
+  840 -- 2469
+  840 -- 2470
+  840 -- 2471
+  840 -- 2472
+  840 -- 2473
+  840 -- 2474
+  840 -- 2475
+  840 -- 2476
+  840 -- 2477
+  840 -- 2478
+  840 -- 2479
+  840 -- 2480
+  840 -- 2481
+  840 -- 2482
+  840 -- 2483
+  840 -- 2484
+  840 -- 2485
+  840 -- 2486
+  840 -- 2487
+  840 -- 2488
+  841 -- 2457
+  842 -- 843
+  842 -- 853
+  843 -- 870
+  844 -- 845
+  844 -- 950
+  845 -- 958
+  846 -- 847
+  846 -- 1036
+  847 -- 867
+  848 -- 849
+  848 -- 863
+  849 -- 945
+  850 -- 876
+  850 -- 1228
+  851 -- 879
+  851 -- 1028
+  852 -- 882
+  852 -- 947
+  853 -- 885
+  853 -- 948
+  854 -- 888
+  854 -- 1030
+  855 -- 891
+  855 -- 1042
+  856 -- 894
+  856 -- 1046
+  857 -- 897
+  857 -- 1049
+  858 -- 900
+  858 -- 955
+  859 -- 903
+  859 -- 956
+  860 -- 906
+  860 -- 1053
+  861 -- 909
+  861 -- 957
+  862 -- 912
+  862 -- 1253
+  863 -- 915
+  863 -- 1056
+  864 -- 918
+  864 -- 1057
+  865 -- 921
+  865 -- 1060
+  866 -- 924
+  866 -- 1061
+  867 -- 927
+  867 -- 960
+  868 -- 930
+  868 -- 961
+  869 -- 933
+  869 -- 962
+  870 -- 936
+  870 -- 963
+  871 -- 939
+  871 -- 964
+  872 -- 873
+  872 -- 1727
+  873 -- 2489
+  876 -- 2490
+  879 -- 2491
+  882 -- 2492
+  885 -- 2493
+  888 -- 2494
+  891 -- 2495
+  894 -- 2496
+  897 -- 2497
+  900 -- 2498
+  903 -- 2499
+  906 -- 2500
+  909 -- 2501
+  912 -- 2502
+  915 -- 2503
+  918 -- 2504
+  921 -- 2505
+  924 -- 2506
+  927 -- 2507
+  930 -- 2508
+  933 -- 2509
+  936 -- 2510
+  939 -- 2511
+  942 -- 943
+  942 -- 2490
+  942 -- 2491
+  942 -- 2492
+  942 -- 2493
+  942 -- 2494
+  942 -- 2495
+  942 -- 2496
+  942 -- 2497
+  942 -- 2498
+  942 -- 2499
+  942 -- 2500
+  942 -- 2501
+  942 -- 2502
+  942 -- 2503
+  942 -- 2504
+  942 -- 2505
+  942 -- 2506
+  942 -- 2507
+  942 -- 2508
+  942 -- 2509
+  942 -- 2510
+  942 -- 2511
+  943 -- 2489
+  944 -- 945
+  944 -- 952
+  945 -- 959
+  946 -- 1041
+  947 -- 969
+  947 -- 1032
+  948 -- 972
+  948 -- 1034
+  949 -- 975
+  949 -- 1039
+  950 -- 978
+  950 -- 1040
+  951 -- 981
+  951 -- 1043
+  952 -- 984
+  952 -- 1025
+  953 -- 987
+  953 -- 1045
+  954 -- 990
+  954 -- 1048
+  955 -- 993
+  955 -- 1050
+  956 -- 996
+  956 -- 1051
+  957 -- 999
+  957 -- 1054
+  958 -- 1002
+  958 -- 1055
+  959 -- 1005
+  959 -- 1058
+  960 -- 1008
+  960 -- 1062
+  961 -- 1011
+  961 -- 1063
+  962 -- 1014
+  962 -- 1029
+  963 -- 1017
+  963 -- 1027
+  964 -- 1020
+  964 -- 1264
+  965 -- 966
+  965 -- 2099
+  966 -- 2512
+  969 -- 2513
+  972 -- 2514
+  975 -- 2515
+  978 -- 2516
+  981 -- 2517
+  984 -- 2518
+  987 -- 2519
+  990 -- 2520
+  993 -- 2521
+  996 -- 2522
+  999 -- 2523
+  1002 -- 2524
+  1005 -- 2525
+  1008 -- 2526
+  1011 -- 2527
+  1014 -- 2528
+  1017 -- 2529
+  1020 -- 2530
+  1023 -- 1024
+  1023 -- 2513
+  1023 -- 2514
+  1023 -- 2515
+  1023 -- 2516
+  1023 -- 2517
+  1023 -- 2518
+  1023 -- 2519
+  1023 -- 2520
+  1023 -- 2521
+  1023 -- 2522
+  1023 -- 2523
+  1023 -- 2524
+  1023 -- 2525
+  1023 -- 2526
+  1023 -- 2527
+  1023 -- 2528
+  1023 -- 2529
+  1023 -- 2530
+  1024 -- 2512
+  1025 -- 1044
+  1026 -- 1027
+  1026 -- 1035
+  1027 -- 1181
+  1028 -- 1029
+  1028 -- 1211
+  1029 -- 1064
+  1030 -- 1038
+  1031 -- 1071
+  1031 -- 1227
+  1032 -- 1074
+  1032 -- 1185
+  1033 -- 1077
+  1033 -- 1230
+  1034 -- 1080
+  1034 -- 1231
+  1035 -- 1083
+  1035 -- 1232
+  1036 -- 1086
+  1036 -- 1214
+  1037 -- 1089
+  1037 -- 1234
+  1038 -- 1092
+  1038 -- 1235
+  1039 -- 1095
+  1039 -- 1215
+  1040 -- 1098
+  1040 -- 1216
+  1041 -- 1101
+  1041 -- 1238
+  1042 -- 1104
+  1042 -- 1239
+  1043 -- 1107
+  1043 -- 1183
+  1044 -- 1110
+  1044 -- 1241
+  1045 -- 1113
+  1045 -- 1184
+  1046 -- 1116
+  1046 -- 1243
+  1047 -- 1119
+  1047 -- 1182
+  1048 -- 1122
+  1048 -- 1187
+  1049 -- 1125
+  1049 -- 1246
+  1050 -- 1128
+  1050 -- 1217
+  1051 -- 1131
+  1051 -- 1248
+  1052 -- 1134
+  1052 -- 1249
+  1053 -- 1137
+  1053 -- 1188
+  1054 -- 1140
+  1054 -- 1251
+  1055 -- 1143
+  1055 -- 1224
+  1056 -- 1146
+  1056 -- 1417
+  1057 -- 1149
+  1057 -- 1254
+  1058 -- 1152
+  1058 -- 1220
+  1059 -- 1155
+  1059 -- 1222
+  1060 -- 1158
+  1060 -- 1256
+  1061 -- 1161
+  1061 -- 1218
+  1062 -- 1164
+  1062 -- 1259
+  1063 -- 1167
+  1063 -- 1189
+  1064 -- 1170
+  1064 -- 1261
+  1065 -- 1173
+  1065 -- 1424
+  1066 -- 1176
+  1066 -- 1226
+  1067 -- 1068
+  1067 -- 2304
+  1068 -- 2531
+  1071 -- 2532
+  1074 -- 2533
+  1077 -- 2534
+  1080 -- 2535
+  1083 -- 2536
+  1086 -- 2537
+  1089 -- 2538
+  1092 -- 2539
+  1095 -- 2540
+  1098 -- 2541
+  1101 -- 2542
+  1104 -- 2543
+  1107 -- 2544
+  1110 -- 2545
+  1113 -- 2546
+  1116 -- 2547
+  1119 -- 2548
+  1122 -- 2549
+  1125 -- 2550
+  1128 -- 2551
+  1131 -- 2552
+  1134 -- 2553
+  1137 -- 2554
+  1140 -- 2555
+  1143 -- 2556
+  1146 -- 2557
+  1149 -- 2558
+  1152 -- 2559
+  1155 -- 2560
+  1158 -- 2561
+  1161 -- 2562
+  1164 -- 2563
+  1167 -- 2564
+  1170 -- 2565
+  1173 -- 2566
+  1176 -- 2567
+  1179 -- 1180
+  1179 -- 2532
+  1179 -- 2533
+  1179 -- 2534
+  1179 -- 2535
+  1179 -- 2536
+  1179 -- 2537
+  1179 -- 2538
+  1179 -- 2539
+  1179 -- 2540
+  1179 -- 2541
+  1179 -- 2542
+  1179 -- 2543
+  1179 -- 2544
+  1179 -- 2545
+  1179 -- 2546
+  1179 -- 2547
+  1179 -- 2548
+  1179 -- 2549
+  1179 -- 2550
+  1179 -- 2551
+  1179 -- 2552
+  1179 -- 2553
+  1179 -- 2554
+  1179 -- 2555
+  1179 -- 2556
+  1179 -- 2557
+  1179 -- 2558
+  1179 -- 2559
+  1179 -- 2560
+  1179 -- 2561
+  1179 -- 2562
+  1179 -- 2563
+  1179 -- 2564
+  1179 -- 2565
+  1179 -- 2566
+  1179 -- 2567
+  1180 -- 2531
+  1181 -- 1212
+  1182 -- 1186
+  1183 -- 1184
+  1183 -- 1219
+  1184 -- 1242
+  1185 -- 1194
+  1185 -- 1213
+  1186 -- 1197
+  1186 -- 1221
+  1187 -- 1200
+  1187 -- 1225
+  1188 -- 1203
+  1188 -- 1250
+  1189 -- 1206
+  1189 -- 1260
+  1190 -- 1191
+  1190 -- 1843
+  1191 -- 2568
+  1194 -- 2569
+  1197 -- 2570
+  1200 -- 2571
+  1203 -- 2572
+  1206 -- 2573
+  1209 -- 1210
+  1209 -- 2569
+  1209 -- 2570
+  1209 -- 2571
+  1209 -- 2572
+  1209 -- 2573
+  1210 -- 2568
+  1211 -- 1212
+  1211 -- 1546
+  1212 -- 1262
+  1213 -- 1214
+  1213 -- 1229
+  1214 -- 1233
+  1215 -- 1216
+  1215 -- 1223
+  1216 -- 1237
+  1217 -- 1218
+  1217 -- 1247
+  1218 -- 1258
+  1219 -- 1220
+  1219 -- 1240
+  1220 -- 1255
+  1221 -- 1222
+  1221 -- 1244
+  1222 -- 1419
+  1223 -- 1224
+  1223 -- 1236
+  1224 -- 1252
+  1225 -- 1226
+  1225 -- 1245
+  1226 -- 1263
+  1227 -- 1269
+  1227 -- 1391
+  1228 -- 1272
+  1228 -- 1385
+  1229 -- 1275
+  1229 -- 1396
+  1230 -- 1278
+  1230 -- 1397
+  1231 -- 1281
+  1231 -- 1392
+  1232 -- 1284
+  1232 -- 1399
+  1233 -- 1287
+  1233 -- 1400
+  1234 -- 1290
+  1234 -- 1401
+  1235 -- 1293
+  1235 -- 1402
+  1236 -- 1296
+  1236 -- 1403
+  1237 -- 1299
+  1237 -- 1404
+  1238 -- 1302
+  1238 -- 1597
+  1239 -- 1305
+  1239 -- 1405
+  1240 -- 1308
+  1240 -- 1582
+  1241 -- 1311
+  1241 -- 1406
+  1242 -- 1314
+  1242 -- 1407
+  1243 -- 1317
+  1243 -- 1600
+  1244 -- 1320
+  1244 -- 1408
+  1245 -- 1323
+  1245 -- 1409
+  1246 -- 1326
+  1246 -- 1410
+  1247 -- 1329
+  1247 -- 1411
+  1248 -- 1332
+  1248 -- 1412
+  1249 -- 1335
+  1249 -- 1386
+  1250 -- 1338
+  1250 -- 1536
+  1251 -- 1341
+  1251 -- 1414
+  1252 -- 1344
+  1252 -- 1415
+  1253 -- 1347
+  1253 -- 1388
+  1254 -- 1350
+  1254 -- 1545
+  1255 -- 1353
+  1255 -- 1418
+  1256 -- 1356
+  1256 -- 1420
+  1257 -- 1359
+  1257 -- 1421
+  1258 -- 1362
+  1258 -- 1393
+  1259 -- 1365
+  1259 -- 1587
+  1260 -- 1368
+  1260 -- 1423
+  1261 -- 1371
+  1261 -- 1539
+  1262 -- 1374
+  1262 -- 1425
+  1263 -- 1377
+  1263 -- 1426
+  1264 -- 1380
+  1264 -- 1547
+  1265 -- 1266
+  1265 -- 1619
+  1266 -- 2574
+  1269 -- 2575
+  1272 -- 2576
+  1275 -- 2577
+  1278 -- 2578
+  1281 -- 2579
+  1284 -- 2580
+  1287 -- 2581
+  1290 -- 2582
+  1293 -- 2583
+  1296 -- 2584
+  1299 -- 2585
+  1302 -- 2586
+  1305 -- 2587
+  1308 -- 2588
+  1311 -- 2589
+  1314 -- 2590
+  1317 -- 2591
+  1320 -- 2592
+  1323 -- 2593
+  1326 -- 2594
+  1329 -- 2595
+  1332 -- 2596
+  1335 -- 2597
+  1338 -- 2598
+  1341 -- 2599
+  1344 -- 2600
+  1347 -- 2601
+  1350 -- 2602
+  1353 -- 2603
+  1356 -- 2604
+  1359 -- 2605
+  1362 -- 2606
+  1365 -- 2607
+  1368 -- 2608
+  1371 -- 2609
+  1374 -- 2610
+  1377 -- 2611
+  1380 -- 2612
+  1383 -- 1384
+  1383 -- 2575
+  1383 -- 2576
+  1383 -- 2577
+  1383 -- 2578
+  1383 -- 2579
+  1383 -- 2580
+  1383 -- 2581
+  1383 -- 2582
+  1383 -- 2583
+  1383 -- 2584
+  1383 -- 2585
+  1383 -- 2586
+  1383 -- 2587
+  1383 -- 2588
+  1383 -- 2589
+  1383 -- 2590
+  1383 -- 2591
+  1383 -- 2592
+  1383 -- 2593
+  1383 -- 2594
+  1383 -- 2595
+  1383 -- 2596
+  1383 -- 2597
+  1383 -- 2598
+  1383 -- 2599
+  1383 -- 2600
+  1383 -- 2601
+  1383 -- 2602
+  1383 -- 2603
+  1383 -- 2604
+  1383 -- 2605
+  1383 -- 2606
+  1383 -- 2607
+  1383 -- 2608
+  1383 -- 2609
+  1383 -- 2610
+  1383 -- 2611
+  1383 -- 2612
+  1384 -- 2574
+  1385 -- 1386
+  1385 -- 1395
+  1386 -- 1387
+  1387 -- 1390
+  1388 -- 1389
+  1388 -- 1416
+  1389 -- 1427
+  1390 -- 1413
+  1391 -- 1392
+  1391 -- 1394
+  1392 -- 1398
+  1393 -- 1422
+  1394 -- 1432
+  1394 -- 1590
+  1395 -- 1435
+  1395 -- 1591
+  1396 -- 1438
+  1396 -- 1718
+  1397 -- 1441
+  1397 -- 1714
+  1398 -- 1444
+  1398 -- 1544
+  1399 -- 1447
+  1399 -- 1578
+  1400 -- 1450
+  1400 -- 1712
+  1401 -- 1453
+  1401 -- 1540
+  1402 -- 1456
+  1402 -- 1594
+  1403 -- 1459
+  1403 -- 1595
+  1404 -- 1462
+  1404 -- 1541
+  1405 -- 1465
+  1405 -- 1720
+  1406 -- 1468
+  1406 -- 1542
+  1407 -- 1471
+  1407 -- 1721
+  1408 -- 1474
+  1408 -- 1580
+  1409 -- 1477
+  1409 -- 1549
+  1410 -- 1480
+  1410 -- 1603
+  1411 -- 1483
+  1411 -- 1550
+  1412 -- 1486
+  1412 -- 1588
+  1413 -- 1489
+  1413 -- 1605
+  1414 -- 1492
+  1414 -- 1803
+  1415 -- 1495
+  1415 -- 1833
+  1416 -- 1498
+  1416 -- 1607
+  1417 -- 1501
+  1417 -- 1551
+  1418 -- 1504
+  1418 -- 1579
+  1419 -- 1507
+  1419 -- 1836
+  1420 -- 1510
+  1420 -- 1537
+  1421 -- 1513
+  1421 -- 1538
+  1422 -- 1516
+  1422 -- 1543
+  1423 -- 1519
+  1423 -- 1615
+  1424 -- 1522
+  1424 -- 1553
+  1425 -- 1525
+  1425 -- 1767
+  1426 -- 1528
+  1426 -- 1617
+  1427 -- 1531
+  1427 -- 1583
+  1428 -- 1429
+  1428 -- 1554
+  1429 -- 2613
+  1432 -- 2614
+  1435 -- 2615
+  1438 -- 2616
+  1441 -- 2617
+  1444 -- 2618
+  1447 -- 2619
+  1450 -- 2620
+  1453 -- 2621
+  1456 -- 2622
+  1459 -- 2623
+  1462 -- 2624
+  1465 -- 2625
+  1468 -- 2626
+  1471 -- 2627
+  1474 -- 2628
+  1477 -- 2629
+  1480 -- 2630
+  1483 -- 2631
+  1486 -- 2632
+  1489 -- 2633
+  1492 -- 2634
+  1495 -- 2635
+  1498 -- 2636
+  1501 -- 2637
+  1504 -- 2638
+  1507 -- 2639
+  1510 -- 2640
+  1513 -- 2641
+  1516 -- 2642
+  1519 -- 2643
+  1522 -- 2644
+  1525 -- 2645
+  1528 -- 2646
+  1531 -- 2647
+  1534 -- 1535
+  1534 -- 2614
+  1534 -- 2615
+  1534 -- 2616
+  1534 -- 2617
+  1534 -- 2618
+  1534 -- 2619
+  1534 -- 2620
+  1534 -- 2621
+  1534 -- 2622
+  1534 -- 2623
+  1534 -- 2624
+  1534 -- 2625
+  1534 -- 2626
+  1534 -- 2627
+  1534 -- 2628
+  1534 -- 2629
+  1534 -- 2630
+  1534 -- 2631
+  1534 -- 2632
+  1534 -- 2633
+  1534 -- 2634
+  1534 -- 2635
+  1534 -- 2636
+  1534 -- 2637
+  1534 -- 2638
+  1534 -- 2639
+  1534 -- 2640
+  1534 -- 2641
+  1534 -- 2642
+  1534 -- 2643
+  1534 -- 2644
+  1534 -- 2645
+  1534 -- 2646
+  1534 -- 2647
+  1535 -- 2613
+  1536 -- 1537
+  1536 -- 1606
+  1537 -- 1552
+  1538 -- 1539
+  1538 -- 1612
+  1539 -- 1725
+  1540 -- 1541
+  1540 -- 1548
+  1541 -- 1596
+  1542 -- 1543
+  1542 -- 1599
+  1543 -- 1589
+  1544 -- 1545
+  1544 -- 1593
+  1545 -- 1609
+  1546 -- 1547
+  1546 -- 1592
+  1547 -- 1581
+  1548 -- 1558
+  1548 -- 1821
+  1549 -- 1561
+  1549 -- 1602
+  1550 -- 1564
+  1550 -- 1604
+  1551 -- 1567
+  1551 -- 1608
+  1552 -- 1570
+  1552 -- 1611
+  1553 -- 1573
+  1553 -- 1585
+  1554 -- 1555
+  1554 -- 2193
+  1555 -- 2648
+  1558 -- 2649
+  1561 -- 2650
+  1564 -- 2651
+  1567 -- 2652
+  1570 -- 2653
+  1573 -- 2654
+  1576 -- 1577
+  1576 -- 2649
+  1576 -- 2650
+  1576 -- 2651
+  1576 -- 2652
+  1576 -- 2653
+  1576 -- 2654
+  1577 -- 2648
+  1578 -- 1579
+  1578 -- 1584
+  1579 -- 1610
+  1580 -- 1581
+  1580 -- 1601
+  1581 -- 1930
+  1582 -- 1583
+  1582 -- 1586
+  1583 -- 1618
+  1584 -- 1585
+  1584 -- 1760
+  1585 -- 1616
+  1586 -- 1587
+  1586 -- 1598
+  1587 -- 1614
+  1588 -- 1589
+  1588 -- 1830
+  1589 -- 1613
+  1590 -- 1623
+  1590 -- 1933
+  1591 -- 1626
+  1591 -- 1716
+  1592 -- 1629
+  1592 -- 1802
+  1593 -- 1632
+  1593 -- 1715
+  1594 -- 1635
+  1594 -- 1809
+  1595 -- 1638
+  1595 -- 1761
+  1596 -- 1641
+  1596 -- 1719
+  1597 -- 1644
+  1597 -- 1941
+  1598 -- 1647
+  1598 -- 1762
+  1599 -- 1650
+  1599 -- 1826
+  1600 -- 1653
+  1600 -- 1804
+  1601 -- 1656
+  1601 -- 1946
+  1602 -- 1659
+  1602 -- 1722
+  1603 -- 1662
+  1603 -- 1828
+  1604 -- 1665
+  1604 -- 1798
+  1605 -- 1668
+  1605 -- 1723
+  1606 -- 1671
+  1606 -- 1713
+  1607 -- 1674
+  1607 -- 1724
+  1608 -- 1677
+  1608 -- 1717
+  1609 -- 1680
+  1609 -- 1835
+  1610 -- 1683
+  1610 -- 1764
+  1611 -- 1686
+  1611 -- 1810
+  1612 -- 1689
+  1612 -- 1959
+  1613 -- 1692
+  1613 -- 1932
+  1614 -- 1695
+  1614 -- 1815
+  1615 -- 1698
+  1615 -- 1765
+  1616 -- 1701
+  1616 -- 1766
+  1617 -- 1704
+  1617 -- 1841
+  1618 -- 1707
+  1618 -- 1726
+  1619 -- 1620
+  1619 -- 1768
+  1620 -- 2655
+  1623 -- 2656
+  1626 -- 2657
+  1629 -- 2658
+  1632 -- 2659
+  1635 -- 2660
+  1638 -- 2661
+  1641 -- 2662
+  1644 -- 2663
+  1647 -- 2664
+  1650 -- 2665
+  1653 -- 2666
+  1656 -- 2667
+  1659 -- 2668
+  1662 -- 2669
+  1665 -- 2670
+  1668 -- 2671
+  1671 -- 2672
+  1674 -- 2673
+  1677 -- 2674
+  1680 -- 2675
+  1683 -- 2676
+  1686 -- 2677
+  1689 -- 2678
+  1692 -- 2679
+  1695 -- 2680
+  1698 -- 2681
+  1701 -- 2682
+  1704 -- 2683
+  1707 -- 2684
+  1710 -- 1711
+  1710 -- 2656
+  1710 -- 2657
+  1710 -- 2658
+  1710 -- 2659
+  1710 -- 2660
+  1710 -- 2661
+  1710 -- 2662
+  1710 -- 2663
+  1710 -- 2664
+  1710 -- 2665
+  1710 -- 2666
+  1710 -- 2667
+  1710 -- 2668
+  1710 -- 2669
+  1710 -- 2670
+  1710 -- 2671
+  1710 -- 2672
+  1710 -- 2673
+  1710 -- 2674
+  1710 -- 2675
+  1710 -- 2676
+  1710 -- 2677
+  1710 -- 2678
+  1710 -- 2679
+  1710 -- 2680
+  1710 -- 2681
+  1710 -- 2682
+  1710 -- 2683
+  1710 -- 2684
+  1711 -- 2655
+  1712 -- 1713
+  1712 -- 1807
+  1713 -- 1832
+  1714 -- 1715
+  1714 -- 1927
+  1715 -- 1814
+  1716 -- 1717
+  1716 -- 2076
+  1717 -- 1763
+  1718 -- 1731
+  1718 -- 1817
+  1719 -- 1734
+  1719 -- 1823
+  1720 -- 1737
+  1720 -- 1824
+  1721 -- 1740
+  1721 -- 1827
+  1722 -- 1743
+  1722 -- 1800
+  1723 -- 1746
+  1723 -- 1799
+  1724 -- 1749
+  1724 -- 1931
+  1725 -- 1752
+  1725 -- 1838
+  1726 -- 1755
+  1726 -- 1811
+  1727 -- 1728
+  1727 -- 2302
+  1728 -- 2685
+  1731 -- 2686
+  1734 -- 2687
+  1737 -- 2688
+  1740 -- 2689
+  1743 -- 2690
+  1746 -- 2691
+  1749 -- 2692
+  1752 -- 2693
+  1755 -- 2694
+  1758 -- 1759
+  1758 -- 2686
+  1758 -- 2687
+  1758 -- 2688
+  1758 -- 2689
+  1758 -- 2690
+  1758 -- 2691
+  1758 -- 2692
+  1758 -- 2693
+  1758 -- 2694
+  1759 -- 2685
+  1760 -- 1772
+  1760 -- 1819
+  1761 -- 1775
+  1761 -- 1939
+  1762 -- 1778
+  1762 -- 1812
+  1763 -- 1781
+  1763 -- 1805
+  1764 -- 1784
+  1764 -- 1808
+  1765 -- 1787
+  1765 -- 1801
+  1766 -- 1790
+  1766 -- 1839
+  1767 -- 1793
+  1767 -- 1813
+  1768 -- 1769
+  1768 -- 2308
+  1769 -- 2695
+  1772 -- 2696
+  1775 -- 2697
+  1778 -- 2698
+  1781 -- 2699
+  1784 -- 2700
+  1787 -- 2701
+  1790 -- 2702
+  1793 -- 2703
+  1796 -- 1797
+  1796 -- 2696
+  1796 -- 2697
+  1796 -- 2698
+  1796 -- 2699
+  1796 -- 2700
+  1796 -- 2701
+  1796 -- 2702
+  1796 -- 2703
+  1797 -- 2695
+  1798 -- 1799
+  1798 -- 1829
+  1799 -- 1831
+  1800 -- 1801
+  1800 -- 2086
+  1801 -- 1961
+  1802 -- 1803
+  1802 -- 1806
+  1803 -- 1952
+  1804 -- 1805
+  1804 -- 1816
+  1805 -- 1834
+  1806 -- 1807
+  1806 -- 1934
+  1807 -- 1820
+  1808 -- 1957
+  1809 -- 1822
+  1810 -- 1811
+  1810 -- 1837
+  1811 -- 1842
+  1812 -- 1813
+  1812 -- 1825
+  1813 -- 1840
+  1814 -- 1815
+  1814 -- 1818
+  1815 -- 2294
+  1816 -- 1945
+  1817 -- 1847
+  1817 -- 2185
+  1818 -- 1850
+  1818 -- 1929
+  1819 -- 1853
+  1819 -- 1928
+  1820 -- 1856
+  1820 -- 2183
+  1821 -- 1859
+  1821 -- 1938
+  1822 -- 1862
+  1822 -- 2266
+  1823 -- 1865
+  1823 -- 1940
+  1824 -- 1868
+  1824 -- 2083
+  1825 -- 1871
+  1825 -- 1942
+  1826 -- 1874
+  1826 -- 1943
+  1827 -- 1877
+  1827 -- 1944
+  1828 -- 1880
+  1828 -- 1947
+  1829 -- 1883
+  1829 -- 1948
+  1830 -- 1886
+  1830 -- 1949
+  1831 -- 1889
+  1831 -- 1950
+  1832 -- 1892
+  1832 -- 1951
+  1833 -- 1895
+  1833 -- 1953
+  1834 -- 1898
+  1834 -- 1955
+  1835 -- 1901
+  1835 -- 1956
+  1836 -- 1904
+  1836 -- 1958
+  1837 -- 1907
+  1837 -- 2291
+  1838 -- 1910
+  1838 -- 2095
+  1839 -- 1913
+  1839 -- 1962
+  1840 -- 1916
+  1840 -- 1963
+  1841 -- 1919
+  1841 -- 1964
+  1842 -- 1922
+  1842 -- 1965
+  1843 -- 1844
+  1843 -- 2307
+  1844 -- 2704
+  1847 -- 2705
+  1850 -- 2706
+  1853 -- 2707
+  1856 -- 2708
+  1859 -- 2709
+  1862 -- 2710
+  1865 -- 2711
+  1868 -- 2712
+  1871 -- 2713
+  1874 -- 2714
+  1877 -- 2715
+  1880 -- 2716
+  1883 -- 2717
+  1886 -- 2718
+  1889 -- 2719
+  1892 -- 2720
+  1895 -- 2721
+  1898 -- 2722
+  1901 -- 2723
+  1904 -- 2724
+  1907 -- 2725
+  1910 -- 2726
+  1913 -- 2727
+  1916 -- 2728
+  1919 -- 2729
+  1922 -- 2730
+  1925 -- 1926
+  1925 -- 2705
+  1925 -- 2706
+  1925 -- 2707
+  1925 -- 2708
+  1925 -- 2709
+  1925 -- 2710
+  1925 -- 2711
+  1925 -- 2712
+  1925 -- 2713
+  1925 -- 2714
+  1925 -- 2715
+  1925 -- 2716
+  1925 -- 2717
+  1925 -- 2718
+  1925 -- 2719
+  1925 -- 2720
+  1925 -- 2721
+  1925 -- 2722
+  1925 -- 2723
+  1925 -- 2724
+  1925 -- 2725
+  1925 -- 2726
+  1925 -- 2727
+  1925 -- 2728
+  1925 -- 2729
+  1925 -- 2730
+  1926 -- 2704
+  1927 -- 1928
+  1927 -- 1935
+  1928 -- 1937
+  1929 -- 1930
+  1929 -- 1936
+  1930 -- 1966
+  1931 -- 1932
+  1931 -- 1954
+  1932 -- 1960
+  1933 -- 1971
+  1933 -- 2075
+  1934 -- 1974
+  1934 -- 2077
+  1935 -- 1977
+  1935 -- 2186
+  1936 -- 1980
+  1936 -- 2078
+  1937 -- 1983
+  1937 -- 2263
+  1938 -- 1986
+  1938 -- 2079
+  1939 -- 1989
+  1939 -- 2080
+  1940 -- 1992
+  1940 -- 2081
+  1941 -- 1995
+  1941 -- 2082
+  1942 -- 1998
+  1942 -- 2271
+  1943 -- 2001
+  1943 -- 2084
+  1944 -- 2004
+  1944 -- 2273
+  1945 -- 2007
+  1945 -- 2085
+  1946 -- 2010
+  1946 -- 2275
+  1947 -- 2013
+  1947 -- 2087
+  1948 -- 2016
+  1948 -- 2227
+  1949 -- 2019
+  1949 -- 2088
+  1950 -- 2022
+  1950 -- 2089
+  1951 -- 2025
+  1951 -- 2090
+  1952 -- 2028
+  1952 -- 2091
+  1953 -- 2031
+  1953 -- 2092
+  1954 -- 2034
+  1954 -- 2179
+  1955 -- 2037
+  1955 -- 2286
+  1956 -- 2040
+  1956 -- 2189
+  1957 -- 2043
+  1957 -- 2289
+  1958 -- 2046
+  1958 -- 2290
+  1959 -- 2049
+  1959 -- 2093
+  1960 -- 2052
+  1960 -- 2094
+  1961 -- 2055
+  1961 -- 2177
+  1962 -- 2058
+  1962 -- 2096
+  1963 -- 2061
+  1963 -- 2097
+  1964 -- 2064
+  1964 -- 2098
+  1965 -- 2067
+  1965 -- 2191
+  1966 -- 2070
+  1966 -- 2178
+  1967 -- 1968
+  1967 -- 2303
+  1968 -- 2731
+  1971 -- 2732
+  1974 -- 2733
+  1977 -- 2734
+  1980 -- 2735
+  1983 -- 2736
+  1986 -- 2737
+  1989 -- 2738
+  1992 -- 2739
+  1995 -- 2740
+  1998 -- 2741
+  2001 -- 2742
+  2004 -- 2743
+  2007 -- 2744
+  2010 -- 2745
+  2013 -- 2746
+  2016 -- 2747
+  2019 -- 2748
+  2022 -- 2749
+  2025 -- 2750
+  2028 -- 2751
+  2031 -- 2752
+  2034 -- 2753
+  2037 -- 2754
+  2040 -- 2755
+  2043 -- 2756
+  2046 -- 2757
+  2049 -- 2758
+  2052 -- 2759
+  2055 -- 2760
+  2058 -- 2761
+  2061 -- 2762
+  2064 -- 2763
+  2067 -- 2764
+  2070 -- 2765
+  2073 -- 2074
+  2073 -- 2732
+  2073 -- 2733
+  2073 -- 2734
+  2073 -- 2735
+  2073 -- 2736
+  2073 -- 2737
+  2073 -- 2738
+  2073 -- 2739
+  2073 -- 2740
+  2073 -- 2741
+  2073 -- 2742
+  2073 -- 2743
+  2073 -- 2744
+  2073 -- 2745
+  2073 -- 2746
+  2073 -- 2747
+  2073 -- 2748
+  2073 -- 2749
+  2073 -- 2750
+  2073 -- 2751
+  2073 -- 2752
+  2073 -- 2753
+  2073 -- 2754
+  2073 -- 2755
+  2073 -- 2756
+  2073 -- 2757
+  2073 -- 2758
+  2073 -- 2759
+  2073 -- 2760
+  2073 -- 2761
+  2073 -- 2762
+  2073 -- 2763
+  2073 -- 2764
+  2073 -- 2765
+  2074 -- 2731
+  2075 -- 2103
+  2075 -- 2257
+  2076 -- 2106
+  2076 -- 2181
+  2077 -- 2109
+  2077 -- 2259
+  2078 -- 2112
+  2078 -- 2187
+  2079 -- 2115
+  2079 -- 2184
+  2080 -- 2118
+  2080 -- 2267
+  2081 -- 2121
+  2081 -- 2241
+  2082 -- 2124
+  2082 -- 2269
+  2083 -- 2127
+  2083 -- 2270
+  2084 -- 2130
+  2084 -- 2272
+  2085 -- 2133
+  2085 -- 2274
+  2086 -- 2136
+  2086 -- 2276
+  2087 -- 2139
+  2087 -- 2180
+  2088 -- 2142
+  2088 -- 2280
+  2089 -- 2145
+  2089 -- 2281
+  2090 -- 2148
+  2090 -- 2282
+  2091 -- 2151
+  2091 -- 2229
+  2092 -- 2154
+  2092 -- 2284
+  2093 -- 2157
+  2093 -- 2292
+  2094 -- 2160
+  2094 -- 2293
+  2095 -- 2163
+  2095 -- 2190
+  2096 -- 2166
+  2096 -- 2226
+  2097 -- 2169
+  2097 -- 2298
+  2098 -- 2172
+  2098 -- 2182
+  2099 -- 2100
+  2099 -- 2306
+  2100 -- 2766
+  2103 -- 2767
+  2106 -- 2768
+  2109 -- 2769
+  2112 -- 2770
+  2115 -- 2771
+  2118 -- 2772
+  2121 -- 2773
+  2124 -- 2774
+  2127 -- 2775
+  2130 -- 2776
+  2133 -- 2777
+  2136 -- 2778
+  2139 -- 2779
+  2142 -- 2780
+  2145 -- 2781
+  2148 -- 2782
+  2151 -- 2783
+  2154 -- 2784
+  2157 -- 2785
+  2160 -- 2786
+  2163 -- 2787
+  2166 -- 2788
+  2169 -- 2789
+  2172 -- 2790
+  2175 -- 2176
+  2175 -- 2767
+  2175 -- 2768
+  2175 -- 2769
+  2175 -- 2770
+  2175 -- 2771
+  2175 -- 2772
+  2175 -- 2773
+  2175 -- 2774
+  2175 -- 2775
+  2175 -- 2776
+  2175 -- 2777
+  2175 -- 2778
+  2175 -- 2779
+  2175 -- 2780
+  2175 -- 2781
+  2175 -- 2782
+  2175 -- 2783
+  2175 -- 2784
+  2175 -- 2785
+  2175 -- 2786
+  2175 -- 2787
+  2175 -- 2788
+  2175 -- 2789
+  2175 -- 2790
+  2176 -- 2766
+  2177 -- 2178
+  2177 -- 2295
+  2178 -- 2192
+  2179 -- 2285
+  2180 -- 2278
+  2181 -- 2182
+  2181 -- 2258
+  2182 -- 2223
+  2183 -- 2184
+  2183 -- 2188
+  2184 -- 2228
+  2185 -- 2197
+  2185 -- 2260
+  2186 -- 2200
+  2186 -- 2261
+  2187 -- 2203
+  2187 -- 2262
+  2188 -- 2206
+  2188 -- 2225
+  2189 -- 2209
+  2189 -- 2288
+  2190 -- 2212
+  2190 -- 2296
+  2191 -- 2215
+  2191 -- 2300
+  2192 -- 2218
+  2192 -- 2224
+  2193 -- 2194
+  2193 -- 2305
+  2194 -- 2791
+  2197 -- 2792
+  2200 -- 2793
+  2203 -- 2794
+  2206 -- 2795
+  2209 -- 2796
+  2212 -- 2797
+  2215 -- 2798
+  2218 -- 2799
+  2221 -- 2222
+  2221 -- 2792
+  2221 -- 2793
+  2221 -- 2794
+  2221 -- 2795
+  2221 -- 2796
+  2221 -- 2797
+  2221 -- 2798
+  2221 -- 2799
+  2222 -- 2791
+  2223 -- 2224
+  2223 -- 2299
+  2224 -- 2301
+  2225 -- 2226
+  2225 -- 2264
+  2226 -- 2297
+  2227 -- 2279
+  2228 -- 2229
+  2228 -- 2265
+  2229 -- 2256
+  2241 -- 2256
+  2241 -- 2268
+  2256 -- 2283
+  2276 -- 2277
+  2276 -- 2286
+  2286 -- 2287
+}

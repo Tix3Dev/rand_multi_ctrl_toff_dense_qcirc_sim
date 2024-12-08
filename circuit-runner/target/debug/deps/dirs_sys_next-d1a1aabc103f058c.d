@@ -1,0 +1,8 @@
+/mnt/c/Users/yvesv/Documents/_LocalProjects/stab-decomp-research/practical work/MAIN/Multi-Controlled Toffoli Gate Dense Quantum Circuits/NOT Gate Obstruction/FLC Decomp Simulator/mark-quizx-comparison/circuit-runner/target/debug/deps/libdirs_sys_next-d1a1aabc103f058c.rmeta: /home/yvesv/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dirs-sys-next-0.1.2/src/lib.rs /home/yvesv/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dirs-sys-next-0.1.2/src/xdg_user_dirs.rs
+
+/mnt/c/Users/yvesv/Documents/_LocalProjects/stab-decomp-research/practical work/MAIN/Multi-Controlled Toffoli Gate Dense Quantum Circuits/NOT Gate Obstruction/FLC Decomp Simulator/mark-quizx-comparison/circuit-runner/target/debug/deps/libdirs_sys_next-d1a1aabc103f058c.rlib: /home/yvesv/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dirs-sys-next-0.1.2/src/lib.rs /home/yvesv/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dirs-sys-next-0.1.2/src/xdg_user_dirs.rs
+
+/mnt/c/Users/yvesv/Documents/_LocalProjects/stab-decomp-research/practical work/MAIN/Multi-Controlled Toffoli Gate Dense Quantum Circuits/NOT Gate Obstruction/FLC Decomp Simulator/mark-quizx-comparison/circuit-runner/target/debug/deps/dirs_sys_next-d1a1aabc103f058c.d: /home/yvesv/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dirs-sys-next-0.1.2/src/lib.rs /home/yvesv/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dirs-sys-next-0.1.2/src/xdg_user_dirs.rs
+
+/home/yvesv/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dirs-sys-next-0.1.2/src/lib.rs:
+/home/yvesv/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dirs-sys-next-0.1.2/src/xdg_user_dirs.rs:
